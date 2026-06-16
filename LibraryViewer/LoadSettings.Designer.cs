@@ -41,7 +41,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Start";
+            this.button1.Text = "开始";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -65,7 +65,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Prefix:";
+            this.label1.Text = "前缀:";
             // 
             // cbFront
             // 
@@ -74,7 +74,7 @@
             this.cbFront.Name = "cbFront";
             this.cbFront.Size = new System.Drawing.Size(84, 17);
             this.cbFront.TabIndex = 3;
-            this.cbFront.Text = "FrontImages";
+            this.cbFront.Text = "前景图";
             this.cbFront.UseVisualStyleBackColor = true;
             // 
             // cbManualPrefix
@@ -84,7 +84,7 @@
             this.cbManualPrefix.Name = "cbManualPrefix";
             this.cbManualPrefix.Size = new System.Drawing.Size(87, 17);
             this.cbManualPrefix.TabIndex = 4;
-            this.cbManualPrefix.Text = "ManualPrefix";
+            this.cbManualPrefix.Text = "手动前缀";
             this.cbManualPrefix.UseVisualStyleBackColor = true;
             this.cbManualPrefix.CheckedChanged += new System.EventHandler(this.cbManualPrefix_CheckedChanged);
             // 
@@ -99,7 +99,7 @@
             this.Controls.Add(this.cbPrefix);
             this.Controls.Add(this.button1);
             this.Name = "LoadSettings";
-            this.Text = "LoadSettings";
+            this.Text = "加载设置";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -51,7 +51,7 @@
             this.Details.Name = "Details";
             this.Details.Size = new System.Drawing.Size(39, 13);
             this.Details.TabIndex = 3;
-            this.Details.Text = "Details";
+            this.Details.Text = "详情";
             this.Details.DoubleClick += new System.EventHandler(this.Details_DoubleClick);
             this.Details.MouseEnter += new System.EventHandler(this.Region_MouseEnter);
             // 

@@ -67,7 +67,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Client Directory:";
+            this.label1.Text = "客户端目录:";
             // 
             // label2
             // 
@@ -76,7 +76,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Host Address:";
+            this.label2.Text = "主机地址:";
             // 
             // HostTextBox
             // 
@@ -92,7 +92,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Login:";
+            this.label3.Text = "登录账号:";
             // 
             // LoginTextBox
             // 
@@ -108,7 +108,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Password:";
+            this.label4.Text = "密码:";
             // 
             // PasswordTextBox
             // 
@@ -123,7 +123,7 @@
             this.ProcessButton.Name = "ProcessButton";
             this.ProcessButton.Size = new System.Drawing.Size(75, 23);
             this.ProcessButton.TabIndex = 9;
-            this.ProcessButton.Text = "Process";
+            this.ProcessButton.Text = "处理";
             this.ProcessButton.UseVisualStyleBackColor = true;
             this.ProcessButton.Click += new System.EventHandler(this.ProcessButton_Click);
             // 
@@ -141,7 +141,7 @@
             this.ActionLabel.Name = "ActionLabel";
             this.ActionLabel.Size = new System.Drawing.Size(24, 13);
             this.ActionLabel.TabIndex = 11;
-            this.ActionLabel.Text = "Idle";
+            this.ActionLabel.Text = "空闲";
             // 
             // label5
             // 
@@ -150,7 +150,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Action:";
+            this.label5.Text = "操作:";
             // 
             // progressBar2
             // 
@@ -166,7 +166,7 @@
             this.SpeedLabel.Name = "SpeedLabel";
             this.SpeedLabel.Size = new System.Drawing.Size(24, 13);
             this.SpeedLabel.TabIndex = 15;
-            this.SpeedLabel.Text = "Idle";
+            this.SpeedLabel.Text = "空闲";
             // 
             // label7
             // 
@@ -175,7 +175,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 13);
             this.label7.TabIndex = 14;
-            this.label7.Text = "Speed:";
+            this.label7.Text = "速度:";
             // 
             // FileLabel
             // 
@@ -184,7 +184,7 @@
             this.FileLabel.Name = "FileLabel";
             this.FileLabel.Size = new System.Drawing.Size(24, 13);
             this.FileLabel.TabIndex = 17;
-            this.FileLabel.Text = "Idle";
+            this.FileLabel.Text = "空闲";
             // 
             // label8
             // 
@@ -193,7 +193,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(26, 13);
             this.label8.TabIndex = 16;
-            this.label8.Text = "File:";
+            this.label8.Text = "文件:";
             // 
             // ListButton
             // 
@@ -201,7 +201,7 @@
             this.ListButton.Name = "ListButton";
             this.ListButton.Size = new System.Drawing.Size(75, 23);
             this.ListButton.TabIndex = 20;
-            this.ListButton.Text = "Create List";
+            this.ListButton.Text = "创建列表";
             this.ListButton.UseVisualStyleBackColor = true;
             this.ListButton.Click += new System.EventHandler(this.ListButton_Click);
             // 
@@ -212,7 +212,7 @@
             this.AllowCleanCheckBox.Name = "AllowCleanCheckBox";
             this.AllowCleanCheckBox.Size = new System.Drawing.Size(98, 17);
             this.AllowCleanCheckBox.TabIndex = 22;
-            this.AllowCleanCheckBox.Text = "Allow Clean Up";
+            this.AllowCleanCheckBox.Text = "允许清理";
             this.AllowCleanCheckBox.UseVisualStyleBackColor = true;
             // 
             // DownloadExistingButton
@@ -221,7 +221,7 @@
             this.DownloadExistingButton.Name = "DownloadExistingButton";
             this.DownloadExistingButton.Size = new System.Drawing.Size(134, 23);
             this.DownloadExistingButton.TabIndex = 23;
-            this.DownloadExistingButton.Text = "Download Existing Data";
+            this.DownloadExistingButton.Text = "下载现有数据";
             this.DownloadExistingButton.UseVisualStyleBackColor = true;
             this.DownloadExistingButton.Click += new System.EventHandler(this.DownloadExistingButton_Click);
             // 
@@ -231,7 +231,7 @@
             this.btnFixGZ.Name = "btnFixGZ";
             this.btnFixGZ.Size = new System.Drawing.Size(75, 23);
             this.btnFixGZ.TabIndex = 24;
-            this.btnFixGZ.Text = "Fix *.gz";
+            this.btnFixGZ.Text = "修复 *.gz";
             this.btnFixGZ.UseVisualStyleBackColor = true;
             this.btnFixGZ.Click += new System.EventHandler(this.btnFixGZ_Click);
             // 
@@ -254,7 +254,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 26;
-            this.label6.Text = "Protocol:";
+            this.label6.Text = "协议:";
             // 
             // AMain
             // 
@@ -285,7 +285,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ClientTextBox);
             this.Name = "AMain";
-            this.Text = "Auto Patcher Admin";
+            this.Text = "自动补丁管理";
             this.Load += new System.EventHandler(this.AMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

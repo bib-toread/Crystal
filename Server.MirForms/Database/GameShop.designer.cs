@@ -280,7 +280,7 @@
             TopItem_checkbox.RightToLeft = RightToLeft.Yes;
             TopItem_checkbox.Size = new Size(76, 19);
             TopItem_checkbox.TabIndex = 106;
-            TopItem_checkbox.Text = ":Top Item";
+            TopItem_checkbox.Text = ":置顶商品";
             TopItem_checkbox.UseVisualStyleBackColor = true;
             TopItem_checkbox.CheckedChanged += TopItem_checkbox_CheckedChanged;
             // 
@@ -293,7 +293,7 @@
             DealofDay_checkbox.RightToLeft = RightToLeft.Yes;
             DealofDay_checkbox.Size = new Size(77, 19);
             DealofDay_checkbox.TabIndex = 105;
-            DealofDay_checkbox.Text = ":Sale Item";
+            DealofDay_checkbox.Text = ":特卖商品";
             DealofDay_checkbox.UseVisualStyleBackColor = true;
             DealofDay_checkbox.CheckedChanged += DealofDay_checkbox_CheckedChanged;
             // 

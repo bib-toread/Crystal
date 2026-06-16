@@ -2073,7 +2073,7 @@
             this.Gameshop_button.Name = "Gameshop_button";
             this.Gameshop_button.Size = new System.Drawing.Size(83, 23);
             this.Gameshop_button.TabIndex = 29;
-            this.Gameshop_button.Text = "+ Gameshop";
+            this.Gameshop_button.Text = "+ 商城";
             this.Gameshop_button.UseVisualStyleBackColor = true;
             this.Gameshop_button.Click += new System.EventHandler(this.Gameshop_button_Click);
             // 

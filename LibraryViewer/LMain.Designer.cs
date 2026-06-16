@@ -78,13 +78,13 @@
             this.openMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.fileToolStripMenuItem.Text = "Folder";
+            this.fileToolStripMenuItem.Text = "文件夹";
             // 
             // openMenuItem
             // 
             this.openMenuItem.Name = "openMenuItem";
             this.openMenuItem.Size = new System.Drawing.Size(103, 22);
-            this.openMenuItem.Text = "Open";
+            this.openMenuItem.Text = "打开";
             this.openMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // ImageList
@@ -166,7 +166,7 @@
             this.checkCenter.Name = "checkCenter";
             this.checkCenter.Size = new System.Drawing.Size(57, 17);
             this.checkCenter.TabIndex = 5;
-            this.checkCenter.Text = "Center";
+            this.checkCenter.Text = "居中";
             this.checkCenter.UseVisualStyleBackColor = true;
             this.checkCenter.CheckedChanged += new System.EventHandler(this.checkCenter_CheckedChanged);
             // 
@@ -179,7 +179,7 @@
             this.checkBackground.Name = "checkBackground";
             this.checkBackground.Size = new System.Drawing.Size(84, 17);
             this.checkBackground.TabIndex = 4;
-            this.checkBackground.Text = "Background";
+            this.checkBackground.Text = "背景";
             this.checkBackground.UseVisualStyleBackColor = true;
             this.checkBackground.CheckedChanged += new System.EventHandler(this.checkBackground_CheckedChanged);
             // 
@@ -190,7 +190,7 @@
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(65, 13);
             this.HeightLabel.TabIndex = 3;
-            this.HeightLabel.Text = "<No Image>";
+            this.HeightLabel.Text = "<无图像>";
             // 
             // LblHeight
             // 
@@ -199,7 +199,7 @@
             this.LblHeight.Name = "LblHeight";
             this.LblHeight.Size = new System.Drawing.Size(41, 13);
             this.LblHeight.TabIndex = 2;
-            this.LblHeight.Text = "Height:";
+            this.LblHeight.Text = "高度:";
             // 
             // LibNameLabel
             // 
@@ -208,7 +208,7 @@
             this.LibNameLabel.Name = "LibNameLabel";
             this.LibNameLabel.Size = new System.Drawing.Size(80, 13);
             this.LibNameLabel.TabIndex = 1;
-            this.LibNameLabel.Text = "<No Selection>";
+            this.LibNameLabel.Text = "<无选择>";
             // 
             // LibCountLabel
             // 
@@ -226,7 +226,7 @@
             this.WidthLabel.Name = "WidthLabel";
             this.WidthLabel.Size = new System.Drawing.Size(65, 13);
             this.WidthLabel.TabIndex = 1;
-            this.WidthLabel.Text = "<No Image>";
+            this.WidthLabel.Text = "<无图像>";
             // 
             // LblLibName
             // 
@@ -235,7 +235,7 @@
             this.LblLibName.Name = "LblLibName";
             this.LblLibName.Size = new System.Drawing.Size(37, 13);
             this.LblLibName.TabIndex = 0;
-            this.LblLibName.Text = "Libfile:";
+            this.LblLibName.Text = "图档文件:";
             // 
             // LblLibCount
             // 
@@ -244,7 +244,7 @@
             this.LblLibCount.Name = "LblLibCount";
             this.LblLibCount.Size = new System.Drawing.Size(51, 13);
             this.LblLibCount.TabIndex = 0;
-            this.LblLibCount.Text = "Libcount:";
+            this.LblLibCount.Text = "图档数量:";
             // 
             // LblWidth
             // 
@@ -253,7 +253,7 @@
             this.LblWidth.Name = "LblWidth";
             this.LblWidth.Size = new System.Drawing.Size(38, 13);
             this.LblWidth.TabIndex = 0;
-            this.LblWidth.Text = "Width:";
+            this.LblWidth.Text = "宽度:";
             // 
             // ImageBox
             // 
@@ -287,7 +287,7 @@
             this.ExportImagesButton.Name = "ExportImagesButton";
             this.ExportImagesButton.Size = new System.Drawing.Size(84, 23);
             this.ExportImagesButton.TabIndex = 7;
-            this.ExportImagesButton.Text = "Export Images";
+            this.ExportImagesButton.Text = "导出图像";
             this.ExportImagesButton.UseVisualStyleBackColor = true;
             this.ExportImagesButton.Click += new System.EventHandler(this.ExportImagesButton_Click);
             // 
@@ -300,7 +300,7 @@
             this.Controls.Add(this.MainMenu);
             this.MainMenuStrip = this.MainMenu;
             this.Name = "LMain";
-            this.Text = "C# Library Viewer";
+            this.Text = "C# 图档查看器";
             this.MainMenu.ResumeLayout(false);
             this.MainMenu.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);

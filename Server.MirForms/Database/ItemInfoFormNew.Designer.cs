@@ -350,7 +350,7 @@ namespace Server.Database
             Gameshop_button.Name = "Gameshop_button";
             Gameshop_button.Size = new Size(97, 27);
             Gameshop_button.TabIndex = 30;
-            Gameshop_button.Text = "+ Gameshop";
+            Gameshop_button.Text = "+ 商城";
             Gameshop_button.UseVisualStyleBackColor = true;
             Gameshop_button.Click += Gameshop_button_Click;
             // 
