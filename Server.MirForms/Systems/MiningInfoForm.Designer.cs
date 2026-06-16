@@ -93,7 +93,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(419, 237);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Stats";
+            this.tabPage1.Text = "属性";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox7
@@ -116,7 +116,7 @@
             this.groupBox7.Size = new System.Drawing.Size(403, 121);
             this.groupBox7.TabIndex = 27;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Mine Base Stat";
+            this.groupBox7.Text = "矿石基础属性";
             // 
             // label79
             // 
@@ -125,7 +125,7 @@
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(38, 13);
             this.label79.TabIndex = 23;
-            this.label79.Text = "Name:";
+            this.label79.Text = "名称:";
             // 
             // MineNametextBox
             // 
@@ -150,7 +150,7 @@
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(33, 13);
             this.label70.TabIndex = 9;
-            this.label70.Text = "Slots:";
+            this.label70.Text = "插槽数:";
             // 
             // label69
             // 
@@ -159,7 +159,7 @@
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(56, 13);
             this.label69.TabIndex = 8;
-            this.label69.Text = "DropRate:";
+            this.label69.Text = "掉落率:";
             // 
             // label68
             // 
@@ -168,7 +168,7 @@
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(46, 13);
             this.label68.TabIndex = 7;
-            this.label68.Text = "HitRate:";
+            this.label68.Text = "命中率:";
             // 
             // MineDropRatetextBox
             // 
@@ -209,7 +209,7 @@
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(83, 13);
             this.label67.TabIndex = 2;
-            this.label67.Text = "Attempts/regen:";
+            this.label67.Text = "尝试/恢复:";
             // 
             // label66
             // 
@@ -218,7 +218,7 @@
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(49, 13);
             this.label66.TabIndex = 1;
-            this.label66.Text = "(minutes)";
+            this.label66.Text = "(分钟)";
             // 
             // label65
             // 
@@ -227,7 +227,7 @@
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(70, 13);
             this.label65.TabIndex = 0;
-            this.label65.Text = "Regen delay:";
+            this.label65.Text = "恢复延迟:";
             // 
             // tabPage2
             // 
@@ -240,7 +240,7 @@
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(419, 237);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Drops";
+            this.tabPage2.Text = "掉落";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label78
@@ -250,7 +250,7 @@
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(38, 13);
             this.label78.TabIndex = 26;
-            this.label78.Text = "Drops:";
+            this.label78.Text = "掉落:";
             // 
             // MineDropsIndexcomboBox
             // 
@@ -299,7 +299,7 @@
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(84, 13);
             this.label77.TabIndex = 33;
-            this.label77.Text = "Maximum Bonus";
+            this.label77.Text = "最大加成";
             // 
             // MineBonusChancetextBox
             // 
@@ -316,7 +316,7 @@
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(77, 13);
             this.label76.TabIndex = 31;
-            this.label76.Text = "Bonus Chance";
+            this.label76.Text = "奖励几率";
             // 
             // MineMaxQualitytextBox
             // 
@@ -333,7 +333,7 @@
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(86, 13);
             this.label75.TabIndex = 29;
-            this.label75.Text = "Maximum Quality";
+            this.label75.Text = "最高品质";
             // 
             // MineMinQualitytextBox
             // 
@@ -350,7 +350,7 @@
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(83, 13);
             this.label74.TabIndex = 27;
-            this.label74.Text = "Minimum Quality";
+            this.label74.Text = "最低品质";
             // 
             // MineMaxSlottextBox
             // 
@@ -367,7 +367,7 @@
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(51, 13);
             this.label73.TabIndex = 25;
-            this.label73.Text = "Max Slot:";
+            this.label73.Text = "最大槽位:";
             // 
             // MineMinSlottextBox
             // 
@@ -384,7 +384,7 @@
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(48, 13);
             this.label72.TabIndex = 23;
-            this.label72.Text = "Min Slot:";
+            this.label72.Text = "最小槽位:";
             // 
             // MineItemNametextBox
             // 
@@ -401,7 +401,7 @@
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(58, 13);
             this.label71.TabIndex = 21;
-            this.label71.Text = "ItemName:";
+            this.label71.Text = "物品名称:";
             // 
             // MineRemoveDropbutton
             // 
@@ -460,7 +460,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(62, 13);
             this.label64.TabIndex = 24;
-            this.label64.Text = "Mine Index:";
+            this.label64.Text = "矿区编号:";
             // 
             // MiningInfoForm
             // 
@@ -473,8 +473,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "MiningInfoForm";
-            this.Text = "MiningInfoForm";
+            this.Name = "采矿信息";
+            this.Text = "采矿信息";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MiningInfoForm_FormClosed);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

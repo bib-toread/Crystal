@@ -107,16 +107,16 @@ namespace Server
         {
             try
             {
-                Text = $"Total: {Envir.LastCount}, Real: {Envir.LastRealCount}";
-                PlayersLabel.Text = $"Players: {Envir.Players.Count}";
-                MonsterLabel.Text = $"Monsters: {Envir.MonsterCount}";
-                ConnectionsLabel.Text = $"Connections: {Envir.Connections.Count}";
-                BlockedIPsLabel.Text = $"Blocked IPs: {Envir.IPBlocks.Count(x => x.Value > Envir.Now)}";
-                UpTimeLabel.Text = $"Uptime: {Envir.Stopwatch.ElapsedMilliseconds / 1000 / 60 / 60 / 24}d:{Envir.Stopwatch.ElapsedMilliseconds / 1000 / 60 / 60 % 24}h:{Envir.Stopwatch.ElapsedMilliseconds / 1000 / 60 % 60}m:{Envir.Stopwatch.ElapsedMilliseconds / 1000 % 60}s";
+                Text = $"总计: {Envir.LastCount}, 实际: {Envir.LastRealCount}";
+                PlayersLabel.Text = $"玩家: {Envir.Players.Count}";
+                MonsterLabel.Text = $"怪物: {Envir.MonsterCount}";
+                ConnectionsLabel.Text = $"连接: {Envir.Connections.Count}";
+                BlockedIPsLabel.Text = $"封禁IP: {Envir.IPBlocks.Count(x => x.Value > Envir.Now)}";
+                UpTimeLabel.Text = $"运行时长: {Envir.Stopwatch.ElapsedMilliseconds / 1000 / 60 / 60 / 24}天:{Envir.Stopwatch.ElapsedMilliseconds / 1000 / 60 / 60 % 24}时:{Envir.Stopwatch.ElapsedMilliseconds / 1000 / 60 % 60}分:{Envir.Stopwatch.ElapsedMilliseconds / 1000 % 60}秒";
 
                 if (Settings.Multithreaded && (Envir.MobThreads != null))
                 {
-                    CycleDelayLabel.Text = $"CycleDelays: {Envir.LastRunTime:0000}";
+                    CycleDelayLabel.Text = $"循环延迟: {Envir.LastRunTime:0000}";
                     for (int i = 0; i < Envir.MobThreads.Length; i++)
                     {
                         if (Envir.MobThreads[i] == null) break;
@@ -125,7 +125,7 @@ namespace Server
                     }
                 }
                 else
-                    CycleDelayLabel.Text = $"CycleDelay: {Envir.LastRunTime}";
+                    CycleDelayLabel.Text = $"循环延迟: {Envir.LastRunTime}";
 
                 while (!MessageQueue.MessageLog.IsEmpty)
                 {
@@ -452,7 +452,7 @@ namespace Server
         {
             if (!SMain.Envir.Running)
             {
-                MessageBox.Show("Server must be running to tune monsters", "Notice",
+                MessageBox.Show("服务器必须运行才能调试怪物", "提示",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
@@ -528,14 +528,14 @@ namespace Server
                     }
                     else
                     {
-                        tempItem.SubItems.Add("DELETED");
+                        tempItem.SubItems.Add("已删除");
                         tempItem.ForeColor = Color.Red;
                     }
 
                     tempItem.SubItems.Add($"{guild.Membercount}/{guild.MemberCap}");
                     tempItem.SubItems.Add(guild.Level.ToString());
                     tempItem.SubItems.Add($"{guild.Gold}");
-                    tempItem.SubItems.Add(guild.HasGT ? guild.GTRent.ToString() : "None");
+                    tempItem.SubItems.Add(guild.HasGT ? guild.GTRent.ToString() : "无");
 
                     GuildListView.Items.Add(tempItem);
                 }
@@ -576,9 +576,9 @@ namespace Server
                 if (character != null)
                     tempItem.SubItems.Add(character.Name);
                 else if (i.UserId == -1)
-                    tempItem.SubItems.Add("Server");
+                    tempItem.SubItems.Add("服务器");
                 else
-                    tempItem.SubItems.Add("Unknown");
+                    tempItem.SubItems.Add("未知");
 
                 tempItem.SubItems.Add(i.Item.FriendlyName);
                 tempItem.SubItems.Add(i.Item.Count.ToString());

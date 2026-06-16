@@ -94,7 +94,7 @@
             label1.Name = "label1";
             label1.Size = new Size(89, 15);
             label1.TabIndex = 1;
-            label1.Text = "Craft Amount : ";
+            label1.Text = "制作数量 : ";
             // 
             // label2
             // 
@@ -103,7 +103,7 @@
             label2.Name = "label2";
             label2.Size = new Size(69, 15);
             label2.TabIndex = 2;
-            label2.Text = "Chance % : ";
+            label2.Text = "几率% : ";
             // 
             // label3
             // 
@@ -112,7 +112,7 @@
             label3.Name = "label3";
             label3.Size = new Size(68, 15);
             label3.TabIndex = 3;
-            label3.Text = "Gold Cost : ";
+            label3.Text = "金币消耗 : ";
             // 
             // label4
             // 
@@ -121,7 +121,7 @@
             label4.Name = "label4";
             label4.Size = new Size(35, 15);
             label4.TabIndex = 4;
-            label4.Text = "Tools";
+            label4.Text = "工具";
             // 
             // RecipeGroupBox
             // 
@@ -138,7 +138,7 @@
             RecipeGroupBox.Size = new Size(271, 131);
             RecipeGroupBox.TabIndex = 6;
             RecipeGroupBox.TabStop = false;
-            RecipeGroupBox.Text = "Recipe (Required)";
+            RecipeGroupBox.Text = "配方(必需)";
             // 
             // ItemComboBox
             // 
@@ -177,7 +177,7 @@
             label6.Name = "label6";
             label6.Size = new Size(40, 15);
             label6.TabIndex = 4;
-            label6.Text = "Item : ";
+            label6.Text = "物品 : ";
             // 
             // ToolsGroupBox
             // 
@@ -190,7 +190,7 @@
             ToolsGroupBox.Size = new Size(271, 127);
             ToolsGroupBox.TabIndex = 7;
             ToolsGroupBox.TabStop = false;
-            ToolsGroupBox.Text = "Tools (Optional)";
+            ToolsGroupBox.Text = "工具(可选)";
             // 
             // Tool3ComboBox
             // 
@@ -244,7 +244,7 @@
             IngredientsGroupBox.Size = new Size(271, 225);
             IngredientsGroupBox.TabIndex = 8;
             IngredientsGroupBox.TabStop = false;
-            IngredientsGroupBox.Text = "Ingredients (Required)";
+            IngredientsGroupBox.Text = "材料(必需)";
             // 
             // IngredientDura6TextBox
             // 
@@ -267,7 +267,7 @@
             label8.Name = "label8";
             label8.Size = new Size(32, 15);
             label8.TabIndex = 27;
-            label8.Text = "Dura";
+            label8.Text = "耐久";
             // 
             // IngredientDura4TextBox
             // 
@@ -366,7 +366,7 @@
             label7.Name = "label7";
             label7.Size = new Size(96, 15);
             label7.TabIndex = 15;
-            label7.Text = "Ingredient Name";
+            label7.Text = "材料名称";
             // 
             // label5
             // 
@@ -375,7 +375,7 @@
             label5.Name = "label5";
             label5.Size = new Size(51, 15);
             label5.TabIndex = 14;
-            label5.Text = "Amount";
+            label5.Text = "数量";
             // 
             // IngredientAmount4TextBox
             // 
@@ -411,7 +411,7 @@
             NewRecipeButton.Name = "NewRecipeButton";
             NewRecipeButton.Size = new Size(75, 23);
             NewRecipeButton.TabIndex = 9;
-            NewRecipeButton.Text = "New";
+            NewRecipeButton.Text = "新建";
             NewRecipeButton.UseVisualStyleBackColor = true;
             NewRecipeButton.Click += NewRecipeButton_Click;
             // 
@@ -421,7 +421,7 @@
             OpenRecipeButton.Name = "OpenRecipeButton";
             OpenRecipeButton.Size = new Size(75, 23);
             OpenRecipeButton.TabIndex = 10;
-            OpenRecipeButton.Text = "Open";
+            OpenRecipeButton.Text = "打开";
             OpenRecipeButton.UseVisualStyleBackColor = true;
             OpenRecipeButton.Click += OpenRecipeButton_Click;
             // 
@@ -431,7 +431,7 @@
             SaveButton.Name = "SaveButton";
             SaveButton.Size = new Size(75, 23);
             SaveButton.TabIndex = 11;
-            SaveButton.Text = "Save";
+            SaveButton.Text = "保存";
             SaveButton.UseVisualStyleBackColor = true;
             SaveButton.Click += SaveButton_Click;
             // 
@@ -447,7 +447,7 @@
             groupBox1.Size = new Size(135, 168);
             groupBox1.TabIndex = 12;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Actions";
+            groupBox1.Text = "动作";
             // 
             // RecipeCountLabel
             // 
@@ -456,7 +456,7 @@
             RecipeCountLabel.Name = "RecipeCountLabel";
             RecipeCountLabel.Size = new Size(84, 15);
             RecipeCountLabel.TabIndex = 13;
-            RecipeCountLabel.Text = "Recipe Count: ";
+            RecipeCountLabel.Text = "配方数: ";
             // 
             // DeleteButton
             // 
@@ -464,7 +464,7 @@
             DeleteButton.Name = "DeleteButton";
             DeleteButton.Size = new Size(75, 23);
             DeleteButton.TabIndex = 12;
-            DeleteButton.Text = "Delete";
+            DeleteButton.Text = "删除";
             DeleteButton.UseVisualStyleBackColor = true;
             DeleteButton.Click += DeleteButton_Click;
             // 
@@ -478,8 +478,8 @@
             Controls.Add(ToolsGroupBox);
             Controls.Add(RecipeGroupBox);
             Controls.Add(RecipeList);
-            Name = "RecipeInfoForm";
-            Text = "RecipeInfoForm";
+            Name = "配方信息";
+            Text = "配方信息";
             FormClosing += RecipeInfoForm_FormClosing;
             Load += RecipeInfoForm_Load;
             RecipeGroupBox.ResumeLayout(false);

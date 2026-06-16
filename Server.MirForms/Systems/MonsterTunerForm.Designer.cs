@@ -89,7 +89,7 @@
             this.updateButton.Name = "updateButton";
             this.updateButton.Size = new System.Drawing.Size(75, 23);
             this.updateButton.TabIndex = 59;
-            this.updateButton.Text = "Update";
+            this.updateButton.Text = "更新";
             this.updateButton.UseVisualStyleBackColor = true;
             this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
@@ -108,7 +108,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(52, 13);
             this.label12.TabIndex = 124;
-            this.label12.Text = "Cool Eye:";
+            this.label12.Text = "视野范围:";
             // 
             // ViewRangeTextBox
             // 
@@ -125,7 +125,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(68, 13);
             this.label33.TabIndex = 122;
-            this.label33.Text = "View Range:";
+            this.label33.Text = "视野范围:";
             // 
             // MSpeedTextBox
             // 
@@ -142,7 +142,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 120;
-            this.label6.Text = "Move Speed:";
+            this.label6.Text = "移动速度:";
             // 
             // ASpeedTextBox
             // 
@@ -159,7 +159,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 13);
             this.label5.TabIndex = 119;
-            this.label5.Text = "Attack Speed:";
+            this.label5.Text = "攻击速度:";
             // 
             // LevelTextBox
             // 
@@ -176,7 +176,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 118;
-            this.label4.Text = "Level:";
+            this.label4.Text = "等级:";
             // 
             // EffectTextBox
             // 
@@ -193,7 +193,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 117;
-            this.label2.Text = "Effect:";
+            this.label2.Text = "效果:";
             // 
             // AgilityTextBox
             // 
@@ -210,7 +210,7 @@
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(37, 13);
             this.label26.TabIndex = 116;
-            this.label26.Text = "Agility:";
+            this.label26.Text = "敏捷:";
             // 
             // AccuracyTextBox
             // 
@@ -227,7 +227,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(55, 13);
             this.label27.TabIndex = 115;
-            this.label27.Text = "Accuracy:";
+            this.label27.Text = "准确:";
             // 
             // HPTextBox
             // 
@@ -261,7 +261,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(47, 13);
             this.label22.TabIndex = 113;
-            this.label22.Text = "Max SC:";
+            this.label22.Text = "最大SC:";
             // 
             // MinSCTextBox
             // 
@@ -278,7 +278,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(44, 13);
             this.label23.TabIndex = 112;
-            this.label23.Text = "Min SC:";
+            this.label23.Text = "最小SC:";
             // 
             // MaxMCTextBox
             // 
@@ -295,7 +295,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(49, 13);
             this.label18.TabIndex = 111;
-            this.label18.Text = "Max MC:";
+            this.label18.Text = "最大MC:";
             // 
             // MinMCTextBox
             // 
@@ -312,7 +312,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 13);
             this.label19.TabIndex = 110;
-            this.label19.Text = "Min MC:";
+            this.label19.Text = "最小MC:";
             // 
             // MaxDCTextBox
             // 
@@ -329,7 +329,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(48, 13);
             this.label20.TabIndex = 109;
-            this.label20.Text = "Max DC:";
+            this.label20.Text = "最大DC:";
             // 
             // MinDCTextBox
             // 
@@ -346,7 +346,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(45, 13);
             this.label21.TabIndex = 108;
-            this.label21.Text = "Min DC:";
+            this.label21.Text = "最小DC:";
             // 
             // MaxMACTextBox
             // 
@@ -363,7 +363,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(56, 13);
             this.label16.TabIndex = 107;
-            this.label16.Text = "Max MAC:";
+            this.label16.Text = "最大MAC:";
             // 
             // MinMACTextBox
             // 
@@ -380,7 +380,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(53, 13);
             this.label17.TabIndex = 96;
-            this.label17.Text = "Min MAC:";
+            this.label17.Text = "最小MAC:";
             // 
             // MaxACTextBox
             // 
@@ -397,7 +397,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(47, 13);
             this.label15.TabIndex = 106;
-            this.label15.Text = "Max AC:";
+            this.label15.Text = "最大AC:";
             // 
             // MinACTextBox
             // 
@@ -414,7 +414,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 13);
             this.label14.TabIndex = 105;
-            this.label14.Text = "Min AC:";
+            this.label14.Text = "最小AC:";
             // 
             // MonsterNameTextBox
             // 
@@ -430,7 +430,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 13);
             this.label3.TabIndex = 89;
-            this.label3.Text = "Monster Name:";
+            this.label3.Text = "怪物名称:";
             // 
             // SaveButton
             // 
@@ -438,7 +438,7 @@
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(75, 23);
             this.SaveButton.TabIndex = 125;
-            this.SaveButton.Text = "Save To DB";
+            this.SaveButton.Text = "保存到数据库";
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
@@ -491,7 +491,7 @@
             this.Controls.Add(this.updateButton);
             this.Controls.Add(this.SelectMonsterComboBox);
             this.Name = "MonsterTunerForm";
-            this.Text = "Monster Tuner";
+            this.Text = "怪物调试";
             this.ResumeLayout(false);
             this.PerformLayout();
 

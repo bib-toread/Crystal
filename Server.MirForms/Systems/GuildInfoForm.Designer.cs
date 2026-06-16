@@ -161,7 +161,7 @@
             label82.Name = "label82";
             label82.Size = new Size(54, 15);
             label82.TabIndex = 45;
-            label82.Text = "Exp Rate:";
+            label82.Text = "经验率:";
             // 
             // GuildPPLtextBox
             // 
@@ -180,7 +180,7 @@
             label81.Name = "label81";
             label81.Size = new Size(78, 15);
             label81.TabIndex = 43;
-            label81.Text = "Points / level:";
+            label81.Text = "每级点数:";
             // 
             // GuildMinOwnerLeveltextBox
             // 
@@ -199,7 +199,7 @@
             label80.Name = "label80";
             label80.Size = new Size(99, 15);
             label80.TabIndex = 41;
-            label80.Text = "Min Owner Level:";
+            label80.Text = "最低所有者等级:";
             // 
             // tabControl1
             // 
@@ -224,7 +224,7 @@
             tabPage1.Padding = new Padding(4, 3, 4, 3);
             tabPage1.Size = new Size(848, 400);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "Creation";
+            tabPage1.Text = "创建";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox10
@@ -245,7 +245,7 @@
             groupBox10.Size = new Size(392, 171);
             groupBox10.TabIndex = 50;
             groupBox10.TabStop = false;
-            groupBox10.Text = "Creation";
+            groupBox10.Text = "创建";
             // 
             // GuildItemNamecomboBox
             // 
@@ -266,7 +266,7 @@
             label94.Name = "label94";
             label94.Size = new Size(86, 15);
             label94.TabIndex = 36;
-            label94.Text = "(Gold = blank):";
+            label94.Text = "(金币=留空):";
             // 
             // GuildAmounttextBox
             // 
@@ -285,7 +285,7 @@
             label93.Name = "label93";
             label93.Size = new Size(54, 15);
             label93.TabIndex = 34;
-            label93.Text = "Amount:";
+            label93.Text = "数量:";
             // 
             // GuildDeleteCreateItembutton
             // 
@@ -306,7 +306,7 @@
             label92.Name = "label92";
             label92.Size = new Size(69, 15);
             label92.TabIndex = 32;
-            label92.Text = "Item Name:";
+            label92.Text = "物品名称:";
             // 
             // GuildCreateListcomboBox
             // 
@@ -338,7 +338,7 @@
             label86.Name = "label86";
             label86.Size = new Size(162, 15);
             label86.TabIndex = 27;
-            label86.Text = "Guild Creation Requirements:";
+            label86.Text = "公会创建需求:";
             // 
             // tabPage2
             // 
@@ -349,7 +349,7 @@
             tabPage2.Padding = new Padding(4, 3, 4, 3);
             tabPage2.Size = new Size(848, 400);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "Levels";
+            tabPage2.Text = "等级";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox9
@@ -369,7 +369,7 @@
             groupBox9.Size = new Size(392, 171);
             groupBox9.TabIndex = 49;
             groupBox9.TabStop = false;
-            groupBox9.Text = "Levelup";
+            groupBox9.Text = "升级";
             // 
             // label84
             // 
@@ -379,7 +379,7 @@
             label84.Name = "label84";
             label84.Size = new Size(71, 15);
             label84.TabIndex = 18;
-            label84.Text = "Exp to lvlup:";
+            label84.Text = "升级经验:";
             // 
             // label85
             // 
@@ -389,7 +389,7 @@
             label85.Name = "label85";
             label85.Size = new Size(74, 15);
             label85.TabIndex = 24;
-            label85.Text = "Membercap:";
+            label85.Text = "成员上限:";
             // 
             // GuildDeleteLevelbutton
             // 
@@ -439,7 +439,7 @@
             label83.Name = "label83";
             label83.Size = new Size(65, 15);
             label83.TabIndex = 14;
-            label83.Text = "Guild level:";
+            label83.Text = "公会等级:";
             // 
             // GuildLevelListcomboBox
             // 
@@ -467,7 +467,7 @@
             tabPage3.Padding = new Padding(4, 3, 4, 3);
             tabPage3.Size = new Size(848, 400);
             tabPage3.TabIndex = 2;
-            tabPage3.Text = "Buffs";
+            tabPage3.Text = "增益";
             tabPage3.UseVisualStyleBackColor = true;
             // 
             // NewbieGuildExptextBox
@@ -494,7 +494,7 @@
             NewbieGuildBuffEnabledcheckBox.Name = "NewbieGuildBuffEnabledcheckBox";
             NewbieGuildBuffEnabledcheckBox.Size = new Size(181, 19);
             NewbieGuildBuffEnabledcheckBox.TabIndex = 4;
-            NewbieGuildBuffEnabledcheckBox.Text = "Enable NewbieGuild Exp Buff:";
+            NewbieGuildBuffEnabledcheckBox.Text = "启用新手公会经验加成:";
             NewbieGuildBuffEnabledcheckBox.UseVisualStyleBackColor = true;
             NewbieGuildBuffEnabledcheckBox.CheckedChanged += NewbieGuildBuffEnabledcheckBox_CheckedChanged;
             // 
@@ -537,7 +537,7 @@
             label28.Name = "label28";
             label28.Size = new Size(30, 15);
             label28.TabIndex = 12;
-            label28.Text = "Icon";
+            label28.Text = "图标";
             // 
             // BufftxtActivationCost
             // 
@@ -622,7 +622,7 @@
             groupBox2.Size = new Size(413, 320);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Available Buffs";
+            groupBox2.Text = "可用增益";
             // 
             // BufftxtGoldRate
             // 
@@ -794,7 +794,7 @@
             label27.Name = "label27";
             label27.Size = new Size(74, 15);
             label27.TabIndex = 17;
-            label27.Text = "Gold Rate %:";
+            label27.Text = "金币率%:";
             // 
             // label26
             // 
@@ -804,7 +804,7 @@
             label26.Name = "label26";
             label26.Size = new Size(75, 15);
             label26.TabIndex = 16;
-            label26.Text = "Drop Rate %:";
+            label26.Text = "掉落率%:";
             // 
             // label25
             // 
@@ -814,7 +814,7 @@
             label25.Name = "label25";
             label25.Size = new Size(67, 15);
             label25.TabIndex = 15;
-            label25.Text = "Skill Rate X:";
+            label25.Text = "技能倍率X:";
             // 
             // label24
             // 
@@ -824,7 +824,7 @@
             label24.Name = "label24";
             label24.Size = new Size(75, 15);
             label24.TabIndex = 14;
-            label24.Text = "Craft Rate %:";
+            label24.Text = "制作率%:";
             // 
             // label23
             // 
@@ -834,7 +834,7 @@
             label23.Name = "label23";
             label23.Size = new Size(67, 15);
             label23.TabIndex = 13;
-            label23.Text = "Exp Rate %:";
+            label23.Text = "经验率%:";
             // 
             // label22
             // 
@@ -844,7 +844,7 @@
             label22.Name = "label22";
             label22.Size = new Size(87, 15);
             label22.TabIndex = 12;
-            label22.Text = "Fishing Rate %:";
+            label22.Text = "钓鱼率%:";
             // 
             // label21
             // 
@@ -854,7 +854,7 @@
             label21.Name = "label21";
             label21.Size = new Size(74, 15);
             label21.TabIndex = 11;
-            label21.Text = "Gem Rate %:";
+            label21.Text = "宝石率%:";
             // 
             // label20
             // 
@@ -864,7 +864,7 @@
             label20.Name = "label20";
             label20.Size = new Size(76, 15);
             label20.TabIndex = 10;
-            label20.Text = "Mine Rate %:";
+            label20.Text = "采矿率%:";
             // 
             // label19
             // 
@@ -874,7 +874,7 @@
             label19.Name = "label19";
             label19.Size = new Size(64, 15);
             label19.TabIndex = 9;
-            label19.Text = "Mp Regen:";
+            label19.Text = "魔法恢复:";
             // 
             // label18
             // 
@@ -884,7 +884,7 @@
             label18.Name = "label18";
             label18.Size = new Size(62, 15);
             label18.TabIndex = 8;
-            label18.Text = "Hp Regen:";
+            label18.Text = "生命恢复:";
             // 
             // label17
             // 
@@ -894,7 +894,7 @@
             label17.Name = "label17";
             label17.Size = new Size(50, 15);
             label17.TabIndex = 7;
-            label17.Text = "MaxMp:";
+            label17.Text = "最大魔法:";
             // 
             // label16
             // 
@@ -904,7 +904,7 @@
             label16.Name = "label16";
             label16.Size = new Size(48, 15);
             label16.TabIndex = 6;
-            label16.Text = "MaxHp:";
+            label16.Text = "最大生命:";
             // 
             // label15
             // 
@@ -914,7 +914,7 @@
             label15.Name = "label15";
             label15.Size = new Size(44, 15);
             label15.TabIndex = 5;
-            label15.Text = "Attack:";
+            label15.Text = "攻击:";
             // 
             // label14
             // 
@@ -974,7 +974,7 @@
             label9.Name = "label9";
             label9.Size = new Size(91, 15);
             label9.TabIndex = 6;
-            label9.Text = "Activation Cost:";
+            label9.Text = "激活费用:";
             // 
             // label8
             // 
@@ -984,7 +984,7 @@
             label8.Name = "label8";
             label8.Size = new Size(67, 15);
             label8.TabIndex = 5;
-            label8.Text = "Time Limit:";
+            label8.Text = "时间限制:";
             // 
             // label7
             // 
@@ -994,7 +994,7 @@
             label7.Name = "label7";
             label7.Size = new Size(93, 15);
             label7.TabIndex = 4;
-            label7.Text = "Points Required:";
+            label7.Text = "所需点数:";
             // 
             // label6
             // 
@@ -1004,7 +1004,7 @@
             label6.Name = "label6";
             label6.Size = new Size(133, 15);
             label6.TabIndex = 3;
-            label6.Text = "GuildLevelRequirement:";
+            label6.Text = "公会等级需求:";
             // 
             // BufftxtName
             // 
@@ -1023,7 +1023,7 @@
             label5.Name = "label5";
             label5.Size = new Size(42, 15);
             label5.TabIndex = 1;
-            label5.Text = "Name:";
+            label5.Text = "名称:";
             // 
             // BufflblIndex
             // 
@@ -1033,7 +1033,7 @@
             BufflblIndex.Name = "BufflblIndex";
             BufflblIndex.Size = new Size(59, 15);
             BufflblIndex.TabIndex = 0;
-            BufflblIndex.Text = "Index:     0";
+            BufflblIndex.Text = "编号:     0";
             // 
             // BuffList
             // 
@@ -1053,7 +1053,7 @@
             BuffDelete.Name = "BuffDelete";
             BuffDelete.Size = new Size(88, 27);
             BuffDelete.TabIndex = 1;
-            BuffDelete.Text = "Delete";
+            BuffDelete.Text = "删除";
             BuffDelete.UseVisualStyleBackColor = true;
             BuffDelete.Click += BuffDelete_Click;
             // 
@@ -1064,7 +1064,7 @@
             BuffAdd.Name = "BuffAdd";
             BuffAdd.Size = new Size(88, 27);
             BuffAdd.TabIndex = 0;
-            BuffAdd.Text = "Add";
+            BuffAdd.Text = "添加";
             BuffAdd.UseVisualStyleBackColor = true;
             BuffAdd.Click += BuffAdd_Click;
             // 
@@ -1076,7 +1076,7 @@
             tabPage4.Name = "tabPage4";
             tabPage4.Size = new Size(848, 400);
             tabPage4.TabIndex = 3;
-            tabPage4.Text = "Wars";
+            tabPage4.Text = "战争";
             tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -1094,7 +1094,7 @@
             groupBox1.Size = new Size(394, 177);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Wars";
+            groupBox1.Text = "战争";
             // 
             // label4
             // 
@@ -1104,7 +1104,7 @@
             label4.Name = "label4";
             label4.Size = new Size(32, 15);
             label4.TabIndex = 5;
-            label4.Text = "Gold";
+            label4.Text = "金币";
             // 
             // label3
             // 
@@ -1114,7 +1114,7 @@
             label3.Name = "label3";
             label3.Size = new Size(50, 15);
             label3.TabIndex = 4;
-            label3.Text = "Minutes";
+            label3.Text = "分钟";
             // 
             // WarCostTextBox
             // 
@@ -1142,7 +1142,7 @@
             label2.Name = "label2";
             label2.Size = new Size(40, 15);
             label2.TabIndex = 1;
-            label2.Text = "Cost : ";
+            label2.Text = "费用 : ";
             // 
             // label1
             // 
@@ -1152,7 +1152,7 @@
             label1.Name = "label1";
             label1.Size = new Size(53, 15);
             label1.TabIndex = 0;
-            label1.Text = "Length : ";
+            label1.Text = "长度 : ";
             // 
             // tabPage5
             // 
@@ -1167,7 +1167,7 @@
             tabPage5.Padding = new Padding(3);
             tabPage5.Size = new Size(848, 400);
             tabPage5.TabIndex = 4;
-            tabPage5.Text = "GTs";
+            tabPage5.Text = "领地";
             tabPage5.UseVisualStyleBackColor = true;
             // 
             // GTExtendPriceBox
@@ -1201,7 +1201,7 @@
             label32.Name = "label32";
             label32.Size = new Size(116, 15);
             label32.TabIndex = 2;
-            label32.Text = "Ownership Duration:";
+            label32.Text = "占领时长:";
             // 
             // label31
             // 
@@ -1210,7 +1210,7 @@
             label31.Name = "label31";
             label31.Size = new Size(74, 15);
             label31.TabIndex = 1;
-            label31.Text = "Extend Price:";
+            label31.Text = "续费价格:";
             // 
             // label30
             // 
@@ -1219,7 +1219,7 @@
             label30.Name = "label30";
             label30.Size = new Size(36, 15);
             label30.TabIndex = 0;
-            label30.Text = "Price:";
+            label30.Text = "价格:";
             // 
             // GuildInfoForm
             // 
@@ -1234,8 +1234,8 @@
             Controls.Add(GuildMinOwnerLeveltextBox);
             Controls.Add(label80);
             Margin = new Padding(4, 3, 4, 3);
-            Name = "GuildInfoForm";
-            Text = "GuildInfoForm";
+            Name = "公会信息";
+            Text = "公会信息";
             FormClosed += GuildInfoForm_FormClosed;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

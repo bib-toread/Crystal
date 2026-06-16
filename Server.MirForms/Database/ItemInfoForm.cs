@@ -32,7 +32,7 @@ namespace Server
             ISetComboBox.Items.AddRange(Enum.GetValues(typeof(ItemSet)).Cast<object>().ToArray());
 
             ITypeFilterComboBox.Items.AddRange(Enum.GetValues(typeof(ItemType)).Cast<object>().ToArray());
-            ITypeFilterComboBox.Items.Add(new ComboBoxItem { Text = "All" });
+            ITypeFilterComboBox.Items.Add(new ComboBoxItem { Text = "全部" });
             ITypeFilterComboBox.SelectedIndex = ITypeFilterComboBox.Items.Count - 1;
 
             UpdateInterface();
@@ -42,45 +42,45 @@ namespace Server
         {
             if ((ITypeComboBox.SelectedItem != null) && ((ItemType)ITypeComboBox.SelectedItem == ItemType.Gem))
             {
-                tabControl1.TabPages[3].Text = "Usable on";
-                ParalysischeckBox.Text = "Weapon";
-                TeleportcheckBox.Text = "Armour";
-                ClearcheckBox.Text = "Helmet";
-                ProtectioncheckBox.Text = "Necklace";
-                RevivalcheckBox.Text = "Bracelet";
-                MusclecheckBox.Text = "Ring";
-                FlamecheckBox.Text = "Amulet";
-                HealingcheckBox.Text = "Belt";
-                ProbecheckBox.Text = "Boots";
-                SkillcheckBox.Text = "Stone";
-                NoDuraLosscheckBox.Text = "Torch";
-                PickaxecheckBox.Text = "Unused";
-                label50.Text = "Base rate%";
-                label52.Text = "Success drop";
-                label51.Text = "Max stats (all)";
-                label49.Text = "Max gem stat";
-                BlinkcheckBox.Text = "Unsure?";
+                tabControl1.TabPages[3].Text = "可用于";
+                ParalysischeckBox.Text = "武器";
+                TeleportcheckBox.Text = "盔甲";
+                ClearcheckBox.Text = "头盔";
+                ProtectioncheckBox.Text = "项链";
+                RevivalcheckBox.Text = "手镯";
+                MusclecheckBox.Text = "戒指";
+                FlamecheckBox.Text = "护身符";
+                HealingcheckBox.Text = "腰带";
+                ProbecheckBox.Text = "靴子";
+                SkillcheckBox.Text = "宝石";
+                NoDuraLosscheckBox.Text = "火把";
+                PickaxecheckBox.Text = "未使用";
+                label50.Text = "基础几率%";
+                label52.Text = "成功掉落";
+                label51.Text = "最大属性(全部)";
+                label49.Text = "最大宝石属性";
+                BlinkcheckBox.Text = "不确定?";
             }
             else
             {
-                tabControl1.TabPages[3].Text = "Special Stats";
-                ParalysischeckBox.Text = "Paralysis ring";
-                TeleportcheckBox.Text = "Teleport ring";
-                ClearcheckBox.Text = "Clear ring";
-                ProtectioncheckBox.Text = "Protection ring";
-                RevivalcheckBox.Text = "Revival ring";
-                MusclecheckBox.Text = "Muscle ring";
-                FlamecheckBox.Text = "Flame ring";
-                HealingcheckBox.Text = "Healing ring";
-                ProbecheckBox.Text = "Probe necklace";
-                SkillcheckBox.Text = "Skill necklace";
-                NoDuraLosscheckBox.Text = "No dura loss";
-                PickaxecheckBox.Text = "Pickaxe";
-                label50.Text = "Critical rate:";
-                label52.Text = "Reflect:";
-                label51.Text = "Critical Dmg:";
+                tabControl1.TabPages[3].Text = "特殊属性";
+                ParalysischeckBox.Text = "麻痹戒指";
+                TeleportcheckBox.Text = "传送戒指";
+                ClearcheckBox.Text = "净化戒指";
+                ProtectioncheckBox.Text = "保护戒指";
+                RevivalcheckBox.Text = "复活戒指";
+                MusclecheckBox.Text = "力量戒指";
+                FlamecheckBox.Text = "火焰戒指";
+                HealingcheckBox.Text = "治疗戒指";
+                ProbecheckBox.Text = "探测项链";
+                SkillcheckBox.Text = "技能项链";
+                NoDuraLosscheckBox.Text = "无耐久损耗";
+                PickaxecheckBox.Text = "矿镐";
+                label50.Text = "暴击率:";
+                label52.Text = "反射:";
+                label51.Text = "暴击伤害:";
                 label49.Text = "HP Drain:";
-                BlinkcheckBox.Text = "Blink";
+                BlinkcheckBox.Text = "闪烁";
             }
         }
 
@@ -495,7 +495,7 @@ namespace Server
         {
             if (_selectedItemInfos.Count == 0) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Items?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要移除选中的物品吗?", "移除物品?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             for (int i = 0; i < _selectedItemInfos.Count; i++) Envir.Remove(_selectedItemInfos[i]);
 
@@ -1055,7 +1055,7 @@ namespace Server
 
             //if (!data.StartsWith("Item", StringComparison.OrdinalIgnoreCase))
             //{
-            //    MessageBox.Show("Cannot Paste, Copied data is not Item Information.");
+            //    MessageBox.Show("无法粘贴,复制的数据不是物品信息。");
             //    return;
             //}
 

@@ -46,7 +46,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("The recipe directory does not exist.", "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("配方目录不存在。", "目录错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             LoadItemsIntoComboBox();
@@ -152,7 +152,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("选中的配方文件不存在。", "文件错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -365,7 +365,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("No items found in the ItemInfoList.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("物品信息列表中未找到物品。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         #endregion
@@ -395,7 +395,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("No items found in the ItemInfoList.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("物品信息列表中未找到物品。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         #endregion
@@ -438,12 +438,12 @@ namespace Server.Database
                     WriteIngredient(writer, IngredientName6ComboBox, IngredientAmount6TextBox, IngredientDura6TextBox);
                 }
 
-                MessageBox.Show("Recipe saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("配方保存成功。", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 isModified = false;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error saving recipe: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"保存配方出错: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void WriteIngredient(StreamWriter writer, ComboBox nameComboBox, TextBox amountTextBox, TextBox duraTextBox)
@@ -481,7 +481,7 @@ namespace Server.Database
             // Ensure the directory exists
             if (!Directory.Exists(directoryPath))
             {
-                MessageBox.Show("The recipe directory does not exist.", "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("配方目录不存在。", "目录错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -515,7 +515,7 @@ namespace Server.Database
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to create the new recipe file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"创建新配方文件失败。错误: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -558,7 +558,7 @@ namespace Server.Database
             currentFilePath = newRecipePath;
             isModified = true;
 
-            MessageBox.Show($"New recipe created: {newRecipeName}.txt", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show($"新配方已创建: {newRecipeName}.txt", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
             UpdateRecipeCount();
         }
         #endregion
@@ -631,7 +631,7 @@ namespace Server.Database
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error renaming recipe file: {ex.Message}",
+                    MessageBox.Show($"重命名配方文件出错: {ex.Message}",
                         "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -644,7 +644,7 @@ namespace Server.Database
             // Check if a recipe has been selected from the RecipeList
             if (RecipeList.SelectedIndex == -1)
             {
-                MessageBox.Show("Please select a recipe from the list.", "No Recipe Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("请从列表中选择配方。", "未选择配方", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -668,12 +668,12 @@ namespace Server.Database
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error opening file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"打开文件出错: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("选中的配方文件不存在。", "文件错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -691,7 +691,7 @@ namespace Server.Database
             // Check if a recipe is selected
             if (RecipeList.SelectedIndex == -1)
             {
-                MessageBox.Show("Please select a recipe to delete.", "No Recipe Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("请选择要删除的配方。", "未选择配方", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -717,19 +717,19 @@ namespace Server.Database
                 {
                     File.Delete(filePath);
                     RecipeList.Items.Remove(selectedRecipeName); // Remove from the list
-                    MessageBox.Show($"Recipe deleted: {selectedRecipeName}.txt", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"配方已删除: {selectedRecipeName}.txt", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // Clear the form and reset controls
                     ClearForm();
                 }
                 else
                 {
-                    MessageBox.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("选中的配方文件不存在。", "文件错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to delete the recipe file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"删除配方文件失败。错误: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             // Update the recipe count

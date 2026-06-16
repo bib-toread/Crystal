@@ -477,7 +477,7 @@ namespace Server.Database
                     if (existingIndex != currentIndex)
                     {
                         e.Cancel = true;
-                        itemInfoGridView.Rows[e.RowIndex].ErrorText = "An item with this name already exists.";
+                        itemInfoGridView.Rows[e.RowIndex].ErrorText = "已存在同名物品。";
                     }
                 }
             }
@@ -485,32 +485,32 @@ namespace Server.Database
             else if (col.ValueType == typeof(int) && col.Name != "StatAttackSpeed" && int.TryParse(val, out int val1) && val1 < 0)
             {
                 e.Cancel = true;
-                itemInfoGridView.Rows[e.RowIndex].ErrorText = "the value must be a positive integer";
+                itemInfoGridView.Rows[e.RowIndex].ErrorText = "值必须是正整数";
             }
             else if (col.ValueType == typeof(int) && !int.TryParse(val, out _))
             {
                 e.Cancel = true;
-                itemInfoGridView.Rows[e.RowIndex].ErrorText = "the value must be an integer";
+                itemInfoGridView.Rows[e.RowIndex].ErrorText = "值必须是整数";
             }
             else if (col.ValueType == typeof(byte) && !byte.TryParse(val, out _))
             {
                 e.Cancel = true;
-                itemInfoGridView.Rows[e.RowIndex].ErrorText = "the value must be a byte";
+                itemInfoGridView.Rows[e.RowIndex].ErrorText = "值必须是字节";
             }
             else if (col.ValueType == typeof(short) && !short.TryParse(val, out _))
             {
                 e.Cancel = true;
-                itemInfoGridView.Rows[e.RowIndex].ErrorText = "the value must be a short";
+                itemInfoGridView.Rows[e.RowIndex].ErrorText = "值必须是短整型";
             }
             else if (col.ValueType == typeof(ushort) && !ushort.TryParse(val, out _))
             {
                 e.Cancel = true;
-                itemInfoGridView.Rows[e.RowIndex].ErrorText = "the value must be a ushort";
+                itemInfoGridView.Rows[e.RowIndex].ErrorText = "值必须是无符号短整型";
             }
             else if (col.ValueType == typeof(long) && !long.TryParse(val, out _))
             {
                 e.Cancel = true;
-                itemInfoGridView.Rows[e.RowIndex].ErrorText = "the value must be a long";
+                itemInfoGridView.Rows[e.RowIndex].ErrorText = "值必须是长整型";
             }
 
             if (!e.Cancel)
@@ -684,7 +684,7 @@ namespace Server.Database
                     if (columns.Length < 2)
                     {
                         fileError = true;
-                        MessageBox.Show("No columns to import.");
+                        MessageBox.Show("没有可导入的列。");
                     }
 
                     if (!fileError)
@@ -712,7 +712,7 @@ namespace Server.Database
                                 if (cells.Length != columns.Length)
                                 {
                                     fileError = true;
-                                    MessageBox.Show($"Row {i} column count does not match the headers column count.");
+                                    MessageBox.Show($"第 {i} 行的列数与标题列数不匹配。");
                                     break;
                                 }
 
@@ -787,7 +787,7 @@ namespace Server.Database
                                 {
                                     fileError = true;
 
-                                    MessageBox.Show($"Error when importing item {cells[0]}. {ex.Message}");
+                                    MessageBox.Show($"导入物品出错: {cells[0]}. {ex.Message}");
 
                                     break;
                                 }
@@ -816,7 +816,7 @@ namespace Server.Database
                 }
                 else
                 {
-                    MessageBox.Show("No rows to import.");
+                    MessageBox.Show("没有可导入的行。");
                 }
             }
         }
@@ -840,7 +840,7 @@ namespace Server.Database
                         catch (IOException ex)
                         {
                             fileError = true;
-                            MessageBox.Show("It wasn't possible to write the data to the disk." + ex.Message);
+                            MessageBox.Show("无法将数据写入磁盘。" + ex.Message);
                         }
                     }
                     if (!fileError)
@@ -900,18 +900,18 @@ namespace Server.Database
                             }
 
                             File.WriteAllLines(sfd.FileName, outputCsv, Encoding.UTF8);
-                            MessageBox.Show("Data Exported Successfully.", "Info");
+                            MessageBox.Show("数据导出成功。", "提示");
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Error :" + ex.Message);
+                            MessageBox.Show("错误 :" + ex.Message);
                         }
                     }
                 }
             }
             else
             {
-                MessageBox.Show("No Items To Export.", "Info");
+                MessageBox.Show("没有可导出的物品。", "提示");
             }
         }
 
@@ -1111,7 +1111,7 @@ namespace Server.Database
             if (inError.Count > 0)
             {
                 String msg = string.Join(Environment.NewLine, inError);
-                if (MessageBox.Show($"The following items are invalid: {msg}", "Discard Invalid Items?", MessageBoxButtons.OKCancel) != DialogResult.OK)
+                if (MessageBox.Show($"以下物品无效: {msg}", "丢弃无效物品?", MessageBoxButtons.OKCancel) != DialogResult.OK)
                 {
                     e.Cancel = true;
                     return;

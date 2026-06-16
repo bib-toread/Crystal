@@ -57,7 +57,7 @@ namespace Server.Database
             }
             else
             {
-                TotalItemsOwnedLabel.Text = "Total Items owned by: ";
+                TotalItemsOwnedLabel.Text = "物品持有者: ";
             }
 
             // Iterate over each filtered auction listing and add it to the MarketListing
@@ -91,7 +91,7 @@ namespace Server.Database
             // Ensure an item is selected in the MarketListing
             if (MarketListing.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Please select a listing to expire.");
+                MessageBox.Show("请选择要标记过期的挂售。");
                 return;
             }
 
@@ -99,7 +99,7 @@ namespace Server.Database
             var selectedItem = MarketListing.SelectedItems[0];
             if (!ulong.TryParse(selectedItem.SubItems[1].Text, out ulong auctionId))
             {
-                MessageBox.Show("Invalid Auction ID selected.");
+                MessageBox.Show("选择了无效的拍卖ID。");
                 return;
             }
 
@@ -107,7 +107,7 @@ namespace Server.Database
             var auction = Envir.Main.Auctions.FirstOrDefault(a => a.AuctionID == auctionId);
             if (auction == null)
             {
-                MessageBox.Show("Auction listing not found.");
+                MessageBox.Show("未找到拍卖挂售。");
                 return;
             }
 
@@ -117,7 +117,7 @@ namespace Server.Database
             // Refresh the MarketListing to reflect the update
             LoadMarket();
 
-            MessageBox.Show("Listing marked as expired successfully.");
+            MessageBox.Show("挂售已成功标记为过期。");
         }
         #endregion
 
@@ -126,21 +126,21 @@ namespace Server.Database
         {
             if (MarketListing.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Please select a listing to delete.");
+                MessageBox.Show("请选择要删除的挂售。");
                 return;
             }
 
             var selectedItem = MarketListing.SelectedItems[0];
             if (!ulong.TryParse(selectedItem.SubItems[1].Text, out ulong auctionId))
             {
-                MessageBox.Show("Invalid Auction ID selected.");
+                MessageBox.Show("选择了无效的拍卖ID。");
                 return;
             }
 
             var auction = Envir.Main.Auctions.FirstOrDefault(a => a.AuctionID == auctionId);
             if (auction == null)
             {
-                MessageBox.Show("Auction listing not found.");
+                MessageBox.Show("未找到拍卖挂售。");
                 return;
             }
 
@@ -166,7 +166,7 @@ namespace Server.Database
 
             LoadMarket();
 
-            MessageBox.Show("Listing deleted successfully, and the owner has been notified.");
+            MessageBox.Show("挂售删除成功,已通知所有者。");
         }
         #endregion
     }

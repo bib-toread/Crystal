@@ -358,7 +358,7 @@ namespace Server.MirForms.DropBuilder
                     }
                     catch (Exception)
                     {
-                        MessageBox.Show("Unreadable level filters.");
+                        MessageBox.Show("无法读取等级筛选。");
                         break;
                     }
                 }
@@ -940,7 +940,7 @@ namespace Server.MirForms.DropBuilder
             {
                 textBoxDropList.ReadOnly = true;
                 textBoxDropList.BackColor = System.Drawing.Color.Cornsilk;
-                buttonEdit.Text = "Edit Drop File";
+                buttonEdit.Text = "编辑掉落文件";
                 //buttonEdit.Image = Properties.Resources.edit;
 
                 // Empty List<DropItem>'s
@@ -960,7 +960,7 @@ namespace Server.MirForms.DropBuilder
             {
                 textBoxDropList.ReadOnly = false;
                 textBoxDropList.BackColor = System.Drawing.Color.Honeydew;
-                buttonEdit.Text = "Accept";
+                buttonEdit.Text = "接受";
                 //buttonEdit.Image = Properties.Resources.accept;
 
                 buttonAdd.Enabled = false;

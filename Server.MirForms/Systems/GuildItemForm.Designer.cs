@@ -83,22 +83,22 @@
             // 
             // PlaceHeader
             // 
-            PlaceHeader.Text = "Stored By";
+            PlaceHeader.Text = "存储者";
             PlaceHeader.Width = 130;
             // 
             // nameHeader
             // 
-            nameHeader.Text = "Name";
+            nameHeader.Text = "名称";
             nameHeader.Width = 115;
             // 
             // countHeader
             // 
-            countHeader.Text = "Count";
+            countHeader.Text = "数量";
             countHeader.Width = 95;
             // 
             // DuraHeader
             // 
-            DuraHeader.Text = "Dura";
+            DuraHeader.Text = "耐久";
             DuraHeader.Width = 155;
             // 
             // MemberListView
@@ -116,12 +116,12 @@
             // 
             // Members
             // 
-            Members.Text = "Members";
+            Members.Text = "成员";
             Members.Width = 160;
             // 
             // Rank
             // 
-            Rank.Text = "Ranks";
+            Rank.Text = "阶级";
             Rank.Width = 180;
             // 
             // DeleteButton
@@ -130,7 +130,7 @@
             DeleteButton.Name = "DeleteButton";
             DeleteButton.Size = new Size(100, 23);
             DeleteButton.TabIndex = 2;
-            DeleteButton.Text = "Delete Member";
+            DeleteButton.Text = "删除成员";
             DeleteButton.UseVisualStyleBackColor = true;
             DeleteButton.Click += DeleteButton_Click;
             // 
@@ -149,7 +149,7 @@
             MemberCountLabel.Name = "MemberCountLabel";
             MemberCountLabel.Size = new Size(60, 15);
             MemberCountLabel.TabIndex = 4;
-            MemberCountLabel.Text = "Members:";
+            MemberCountLabel.Text = "成员:";
             // 
             // BuffListView
             // 
@@ -170,17 +170,17 @@
             // 
             // BuffName
             // 
-            BuffName.Text = "Name";
+            BuffName.Text = "名称";
             BuffName.Width = 140;
             // 
             // BuffActivity
             // 
-            BuffActivity.Text = "Status";
+            BuffActivity.Text = "状态";
             BuffActivity.Width = 80;
             // 
             // BuffTime
             // 
-            BuffTime.Text = "Duration (Mins)";
+            BuffTime.Text = "持续(分钟)";
             BuffTime.Width = 135;
             // 
             // GuildNoticeGroupBox
@@ -192,7 +192,7 @@
             GuildNoticeGroupBox.Size = new Size(413, 305);
             GuildNoticeGroupBox.TabIndex = 6;
             GuildNoticeGroupBox.TabStop = false;
-            GuildNoticeGroupBox.Text = "Notice";
+            GuildNoticeGroupBox.Text = "公告";
             // 
             // RefreshNoticeButton
             // 
@@ -200,7 +200,7 @@
             RefreshNoticeButton.Name = "RefreshNoticeButton";
             RefreshNoticeButton.Size = new Size(94, 23);
             RefreshNoticeButton.TabIndex = 4;
-            RefreshNoticeButton.Text = "Update Notice";
+            RefreshNoticeButton.Text = "更新公告";
             RefreshNoticeButton.UseVisualStyleBackColor = true;
             RefreshNoticeButton.Click += RefreshNoticeButton_Click;
             // 
@@ -212,7 +212,7 @@
             GuildStorageGroupBox.Size = new Size(539, 446);
             GuildStorageGroupBox.TabIndex = 7;
             GuildStorageGroupBox.TabStop = false;
-            GuildStorageGroupBox.Text = "Storage";
+            GuildStorageGroupBox.Text = "仓库";
             // 
             // GuildMembersGroupBox
             // 
@@ -226,7 +226,7 @@
             GuildMembersGroupBox.Size = new Size(595, 446);
             GuildMembersGroupBox.TabIndex = 8;
             GuildMembersGroupBox.TabStop = false;
-            GuildMembersGroupBox.Text = "Members/Ranks";
+            GuildMembersGroupBox.Text = "成员/阶级";
             // 
             // GuildRanksListView
             // 
@@ -242,7 +242,7 @@
             // 
             // GuildRank
             // 
-            GuildRank.Text = "Guild Rank";
+            GuildRank.Text = "公会阶级";
             GuildRank.Width = 284;
             // 
             // GuildEXPLabel
@@ -252,7 +252,7 @@
             GuildEXPLabel.Name = "GuildEXPLabel";
             GuildEXPLabel.Size = new Size(30, 15);
             GuildEXPLabel.TabIndex = 5;
-            GuildEXPLabel.Text = "EXP:";
+            GuildEXPLabel.Text = "经验:";
             // 
             // GuildBuffsGroupBox
             // 
@@ -263,7 +263,7 @@
             GuildBuffsGroupBox.Size = new Size(434, 305);
             GuildBuffsGroupBox.TabIndex = 9;
             GuildBuffsGroupBox.TabStop = false;
-            GuildBuffsGroupBox.Text = "Buffs";
+            GuildBuffsGroupBox.Text = "增益";
             // 
             // GuildPointsLabel
             // 
@@ -272,7 +272,7 @@
             GuildPointsLabel.Name = "GuildPointsLabel";
             GuildPointsLabel.Size = new Size(43, 15);
             GuildPointsLabel.TabIndex = 6;
-            GuildPointsLabel.Text = "Points:";
+            GuildPointsLabel.Text = "点数:";
             // 
             // SendGuildMesageBox
             // 
@@ -287,7 +287,7 @@
             SendGuildMessageButton.Name = "SendGuildMessageButton";
             SendGuildMessageButton.Size = new Size(75, 23);
             SendGuildMessageButton.TabIndex = 11;
-            SendGuildMessageButton.Text = "Send";
+            SendGuildMessageButton.Text = "发送";
             SendGuildMessageButton.UseVisualStyleBackColor = true;
             SendGuildMessageButton.Click += SendGuildMessageButton_Click;
             // 
@@ -301,7 +301,7 @@
             GuildChatGroupBox.Size = new Size(281, 305);
             GuildChatGroupBox.TabIndex = 12;
             GuildChatGroupBox.TabStop = false;
-            GuildChatGroupBox.Text = "Guild Chat";
+            GuildChatGroupBox.Text = "公会聊天";
             // 
             // GuildChatBox
             // 
@@ -322,8 +322,8 @@
             Controls.Add(GuildMembersGroupBox);
             Controls.Add(GuildStorageGroupBox);
             Controls.Add(GuildNoticeGroupBox);
-            Name = "GuildItemForm";
-            Text = "GuildItemForm";
+            Name = "公会物品";
+            Text = "公会物品";
             Load += GuildItemForm_Load;
             GuildNoticeGroupBox.ResumeLayout(false);
             GuildStorageGroupBox.ResumeLayout(false);

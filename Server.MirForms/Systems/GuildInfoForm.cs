@@ -85,7 +85,7 @@ namespace Server
             {
                 SelectedBuff = null;
                 BuffPanel.Enabled = false;
-                BufflblIndex.Text = "No Buff Selected";
+                BufflblIndex.Text = "未选择增益";
                 BufftxtName.Text = string.Empty;
                 BuffTxtLevelReq.Text = string.Empty;
                 BufftxtPointsReq.Text = string.Empty;
@@ -227,7 +227,7 @@ namespace Server
         private void GuildDeleteCreateItembutton_Click(object sender, EventArgs e)
         {
             if (ActiveControl != sender) return;
-            if (MessageBox.Show("Are you sure you want to delete the last index?", "Delete?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要删除最后一个编号吗?", "删除?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             GuildCreateListcomboBox.Items.RemoveAt(Settings.Guild_CreationCostList.Count - 1);
             Settings.Guild_CreationCostList.RemoveAt(Settings.Guild_CreationCostList.Count - 1);
@@ -291,7 +291,7 @@ namespace Server
         private void GuildDeleteLevelbutton_Click(object sender, EventArgs e)
         {
             if (ActiveControl != sender) return;
-            if (MessageBox.Show("Are you sure you want to delete the last index?", "Delete?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要删除最后一个编号吗?", "删除?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             GuildLevelListcomboBox.Items.RemoveAt(Settings.Guild_ExperienceList.Count - 1);
             Settings.Guild_ExperienceList.RemoveAt(Settings.Guild_ExperienceList.Count - 1);
@@ -421,7 +421,7 @@ namespace Server
         {
             if (BuffList.SelectedItem == null) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected guildbuff?", "Remove guildbuff?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要移除选中的公会增益吗?", "移除公会增益?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
             Settings.Guild_BuffList.Remove((GuildBuffInfo)BuffList.SelectedItem);
             BuffList.Items.RemoveAt(BuffList.SelectedIndex);
             GuildsChanged = true;

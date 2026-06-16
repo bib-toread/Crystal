@@ -90,7 +90,7 @@
             label14.Name = "label14";
             label14.Size = new Size(64, 15);
             label14.TabIndex = 90;
-            label14.Text = "Gold Price:";
+            label14.Text = "金币价格:";
             // 
             // GoldPrice_textbox
             // 
@@ -110,7 +110,7 @@
             label21.Name = "label21";
             label21.Size = new Size(71, 15);
             label21.TabIndex = 91;
-            label21.Text = "Credit Price:";
+            label21.Text = "点券价格:";
             // 
             // GPPrice_textbox
             // 
@@ -130,7 +130,7 @@
             label29.Name = "label29";
             label29.Size = new Size(79, 15);
             label29.TabIndex = 93;
-            label29.Text = "Class Section:";
+            label29.Text = "职业部分:";
             // 
             // ItemDetails_gb
             // 
@@ -165,7 +165,7 @@
             ItemDetails_gb.Size = new Size(312, 377);
             ItemDetails_gb.TabIndex = 98;
             ItemDetails_gb.TabStop = false;
-            ItemDetails_gb.Text = "Item Details";
+            ItemDetails_gb.Text = "物品详情";
             // 
             // label7
             // 
@@ -174,7 +174,7 @@
             label7.Name = "label7";
             label7.Size = new Size(34, 15);
             label7.TabIndex = 121;
-            label7.Text = "Item:";
+            label7.Text = "物品:";
             // 
             // ItemComboBox
             // 
@@ -193,7 +193,7 @@
             GoldOnlyBox.Name = "GoldOnlyBox";
             GoldOnlyBox.Size = new Size(51, 19);
             GoldOnlyBox.TabIndex = 119;
-            GoldOnlyBox.Text = "Gold";
+            GoldOnlyBox.Text = "金币";
             GoldOnlyBox.UseVisualStyleBackColor = true;
             GoldOnlyBox.CheckedChanged += GoldOnlyBox_CheckedChanged;
             // 
@@ -205,7 +205,7 @@
             CreditOnlyBox.Name = "CreditOnlyBox";
             CreditOnlyBox.Size = new Size(63, 19);
             CreditOnlyBox.TabIndex = 118;
-            CreditOnlyBox.Text = "Credits";
+            CreditOnlyBox.Text = "点券";
             CreditOnlyBox.UseVisualStyleBackColor = true;
             CreditOnlyBox.CheckedChanged += CreditOnly_CheckedChanged;
             // 
@@ -217,7 +217,7 @@
             label6.Name = "label6";
             label6.Size = new Size(43, 15);
             label6.TabIndex = 117;
-            label6.Text = "Count:";
+            label6.Text = "数量:";
             // 
             // Count_textbox
             // 
@@ -248,7 +248,7 @@
             label3.Name = "label3";
             label3.Size = new Size(75, 15);
             label3.TabIndex = 114;
-            label3.Text = "Left in Stock:";
+            label3.Text = "剩余库存:";
             // 
             // label5
             // 
@@ -258,7 +258,7 @@
             label5.Name = "label5";
             label5.Size = new Size(62, 15);
             label5.TabIndex = 113;
-            label5.Text = "Total Sold:";
+            label5.Text = "总售出:";
             // 
             // TotalSold_label
             // 
@@ -305,7 +305,7 @@
             Individual_checkbox.Name = "Individual_checkbox";
             Individual_checkbox.Size = new Size(88, 19);
             Individual_checkbox.TabIndex = 110;
-            Individual_checkbox.Text = "Player Limit";
+            Individual_checkbox.Text = "玩家上限";
             Individual_checkbox.UseVisualStyleBackColor = true;
             Individual_checkbox.CheckedChanged += Individual_checkbox_CheckedChanged;
             // 
@@ -317,7 +317,7 @@
             label1.Name = "label1";
             label1.Size = new Size(39, 15);
             label1.TabIndex = 111;
-            label1.Text = "Stock:";
+            label1.Text = "库存:";
             // 
             // Stock_textbox
             // 
@@ -347,13 +347,13 @@
             label4.Name = "label4";
             label4.Size = new Size(58, 15);
             label4.TabIndex = 106;
-            label4.Text = "Category:";
+            label4.Text = "分类:";
             // 
             // Class_combo
             // 
             Class_combo.DropDownStyle = ComboBoxStyle.DropDownList;
             Class_combo.FormattingEnabled = true;
-            Class_combo.Items.AddRange(new object[] { "All", "Warrior", "Assassin", "Taoist", "Wizard", "Archer" });
+            Class_combo.Items.AddRange(new object[] { "全部", "战士", "刺客", "道士", "法师", "弓手" });
             Class_combo.Location = new Point(100, 237);
             Class_combo.Margin = new Padding(4, 3, 4, 3);
             Class_combo.Name = "Class_combo";
@@ -373,7 +373,7 @@
             groupBox3.Size = new Size(312, 78);
             groupBox3.TabIndex = 105;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Gameshop Settings";
+            groupBox3.Text = "商城设置";
             // 
             // label2
             // 
@@ -383,7 +383,7 @@
             label2.Name = "label2";
             label2.Size = new Size(78, 15);
             label2.TabIndex = 92;
-            label2.Text = "Credit x Gold:";
+            label2.Text = "点券x金币:";
             // 
             // CredxGold_textbox
             // 
@@ -402,7 +402,7 @@
             ServerLog_button.Name = "ServerLog_button";
             ServerLog_button.Size = new Size(257, 27);
             ServerLog_button.TabIndex = 112;
-            ServerLog_button.Text = "Reset Purchase Logs (Stock Levels will reset)";
+            ServerLog_button.Text = "重置购买记录(库存将重置)";
             ServerLog_button.UseVisualStyleBackColor = true;
             ServerLog_button.Click += ServerLog_button_Click;
             // 
@@ -413,7 +413,7 @@
             Remove_button.Name = "Remove_button";
             Remove_button.Size = new Size(105, 27);
             Remove_button.TabIndex = 106;
-            Remove_button.Text = "Remove Selected";
+            Remove_button.Text = "移除选中";
             Remove_button.UseVisualStyleBackColor = true;
             Remove_button.Click += Remove_button_Click;
             // 
@@ -458,7 +458,7 @@
             ResetFilter_button.Name = "ResetFilter_button";
             ResetFilter_button.Size = new Size(57, 80);
             ResetFilter_button.TabIndex = 110;
-            ResetFilter_button.Text = "Reset Filter";
+            ResetFilter_button.Text = "重置筛选";
             ResetFilter_button.UseVisualStyleBackColor = true;
             ResetFilter_button.Click += ResetFilter_button_Click;
             // 
@@ -469,7 +469,7 @@
             Add_Button.Name = "Add_Button";
             Add_Button.Size = new Size(98, 27);
             Add_Button.TabIndex = 113;
-            Add_Button.Text = "Add Item";
+            Add_Button.Text = "添加物品";
             Add_Button.UseVisualStyleBackColor = true;
             Add_Button.Click += Add_Button_Click;
             // 
@@ -477,7 +477,7 @@
             // 
             GameShopSearchBox.Location = new Point(14, 88);
             GameShopSearchBox.Name = "GameShopSearchBox";
-            GameShopSearchBox.PlaceholderText = "Search...";
+            GameShopSearchBox.PlaceholderText = "搜索...";
             GameShopSearchBox.Size = new Size(234, 23);
             GameShopSearchBox.TabIndex = 114;
             GameShopSearchBox.TextChanged += GameShopSearchBox_TextChanged;
@@ -488,7 +488,7 @@
             ExportButton.Name = "ExportButton";
             ExportButton.Size = new Size(75, 27);
             ExportButton.TabIndex = 115;
-            ExportButton.Text = "Export";
+            ExportButton.Text = "导出";
             ExportButton.UseVisualStyleBackColor = true;
             ExportButton.Click += ExportButton_Click;
             // 
@@ -510,8 +510,8 @@
             Controls.Add(ItemDetails_gb);
             Controls.Add(GameShopListBox);
             Margin = new Padding(4, 3, 4, 3);
-            Name = "GameShop";
-            Text = "GameShop";
+            Name = "商城";
+            Text = "商城";
             FormClosed += GameShop_FormClosed;
             Load += GameShop_Load;
             ItemDetails_gb.ResumeLayout(false);

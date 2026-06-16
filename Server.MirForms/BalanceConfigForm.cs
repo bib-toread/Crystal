@@ -435,7 +435,7 @@ namespace Server
 
         private void RISDeleteIndexbutton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to delete the last index?", "Delete?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要删除最后一个编号吗?", "删除?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
             RandomItemStatsChanged = true;
             RISIndexcomboBox.Items.Remove(Settings.RandomItemStatsList.Count - 1);
             Settings.RandomItemStatsList.RemoveAt(Settings.RandomItemStatsList.Count - 1);
@@ -1575,7 +1575,7 @@ namespace Server
                 if (!int.TryParse(e.FormattedValue.ToString(), out _))
                 {
                     e.Cancel = true;
-                    classGridView.Rows[e.RowIndex].ErrorText = "the value must be an integer";
+                    classGridView.Rows[e.RowIndex].ErrorText = "值必须是整数";
                 }
             }
             else if (e.ColumnIndex == 3 || e.ColumnIndex == 4)
@@ -1583,7 +1583,7 @@ namespace Server
                 if (!float.TryParse(e.FormattedValue.ToString(), out _))
                 {
                     e.Cancel = true;
-                    classGridView.Rows[e.RowIndex].ErrorText = "the value must be a decimal";
+                    classGridView.Rows[e.RowIndex].ErrorText = "值必须是decimal";
                 }
             }
         }
@@ -1655,7 +1655,7 @@ namespace Server
                 if (!int.TryParse(e.FormattedValue.ToString(), out _))
                 {
                     e.Cancel = true;
-                    classCapGridView.Rows[e.RowIndex].ErrorText = "the value must be an integer";
+                    classCapGridView.Rows[e.RowIndex].ErrorText = "值必须是整数";
                 }
             }
         }
@@ -1765,7 +1765,7 @@ namespace Server
 
                 if (classStats.Stats.Any(x => x.Type == type))
                 {
-                    MessageBox.Show(string.Format($"The stat '{type}' exists more than once so will not be saved."));
+                    MessageBox.Show(string.Format($"属性 '{type}' 存在多次,将不予保存。"));
                     continue;
                 }
 
@@ -1831,7 +1831,7 @@ namespace Server
                 if (!int.TryParse(e.FormattedValue.ToString(), out _))
                 {
                     e.Cancel = true;
-                    heroGridView.Rows[e.RowIndex].ErrorText = "the value must be an integer";
+                    heroGridView.Rows[e.RowIndex].ErrorText = "值必须是整数";
                 }
             }
             else if (e.ColumnIndex == 3 || e.ColumnIndex == 4)
@@ -1839,7 +1839,7 @@ namespace Server
                 if (!float.TryParse(e.FormattedValue.ToString(), out _))
                 {
                     e.Cancel = true;
-                    heroGridView.Rows[e.RowIndex].ErrorText = "the value must be a decimal";
+                    heroGridView.Rows[e.RowIndex].ErrorText = "值必须是decimal";
                 }
             }
         }
@@ -1908,7 +1908,7 @@ namespace Server
                 if (!int.TryParse(e.FormattedValue.ToString(), out _))
                 {
                     e.Cancel = true;
-                    heroCapGridView.Rows[e.RowIndex].ErrorText = "the value must be an integer";
+                    heroCapGridView.Rows[e.RowIndex].ErrorText = "值必须是整数";
                 }
             }
         }
@@ -2016,7 +2016,7 @@ namespace Server
 
                 if (classStats.Stats.Any(x => x.Type == type))
                 {
-                    MessageBox.Show(string.Format($"The stat '{type}' exists more than once so will not be saved."));
+                    MessageBox.Show(string.Format($"属性 '{type}' 存在多次,将不予保存。"));
                     continue;
                 }
 

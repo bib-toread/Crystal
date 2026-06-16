@@ -67,27 +67,27 @@
             // 
             // ItemName
             // 
-            ItemName.Text = "Item";
+            ItemName.Text = "物品";
             ItemName.Width = 120;
             // 
             // AID
             // 
-            AID.Text = "Auction ID";
+            AID.Text = "拍卖ID";
             AID.Width = 80;
             // 
             // Price
             // 
-            Price.Text = "Price";
+            Price.Text = "价格";
             Price.Width = 100;
             // 
             // Seller
             // 
-            Seller.Text = "Seller";
+            Seller.Text = "卖家";
             Seller.Width = 120;
             // 
             // Expiry
             // 
-            Expiry.Text = "Expiry";
+            Expiry.Text = "到期";
             Expiry.Width = 140;
             // 
             // SearchBox
@@ -104,7 +104,7 @@
             FilterByPlayer.Name = "FilterByPlayer";
             FilterByPlayer.Size = new Size(103, 19);
             FilterByPlayer.TabIndex = 2;
-            FilterByPlayer.Text = "Filter by Player";
+            FilterByPlayer.Text = "按玩家筛选";
             FilterByPlayer.UseVisualStyleBackColor = true;
             // 
             // FilterByItem
@@ -114,7 +114,7 @@
             FilterByItem.Name = "FilterByItem";
             FilterByItem.Size = new Size(95, 19);
             FilterByItem.TabIndex = 3;
-            FilterByItem.Text = "Filter by Item";
+            FilterByItem.Text = "按物品筛选";
             FilterByItem.UseVisualStyleBackColor = true;
             // 
             // SearchLabel
@@ -124,7 +124,7 @@
             SearchLabel.Name = "SearchLabel";
             SearchLabel.Size = new Size(42, 15);
             SearchLabel.TabIndex = 4;
-            SearchLabel.Text = "Search";
+            SearchLabel.Text = "搜索";
             // 
             // RefreshListings
             // 
@@ -132,7 +132,7 @@
             RefreshListings.Name = "RefreshListings";
             RefreshListings.Size = new Size(75, 23);
             RefreshListings.TabIndex = 5;
-            RefreshListings.Text = "Refresh";
+            RefreshListings.Text = "刷新";
             RefreshListings.UseVisualStyleBackColor = true;
             RefreshListings.Click += RefreshListings_Click;
             // 
@@ -150,7 +150,7 @@
             SearchGroupBox.Size = new Size(562, 86);
             SearchGroupBox.TabIndex = 6;
             SearchGroupBox.TabStop = false;
-            SearchGroupBox.Text = "Search/Stats";
+            SearchGroupBox.Text = "搜索/统计";
             // 
             // DeleteListingButton
             // 
@@ -158,7 +158,7 @@
             DeleteListingButton.Name = "DeleteListingButton";
             DeleteListingButton.Size = new Size(96, 23);
             DeleteListingButton.TabIndex = 4;
-            DeleteListingButton.Text = "Delete Listing";
+            DeleteListingButton.Text = "删除挂售";
             DeleteListingButton.UseVisualStyleBackColor = true;
             DeleteListingButton.Click += DeleteListingButton_Click;
             // 
@@ -169,7 +169,7 @@
             TotalItemsOwnedLabel.Name = "TotalItemsOwnedLabel";
             TotalItemsOwnedLabel.Size = new Size(122, 15);
             TotalItemsOwnedLabel.TabIndex = 7;
-            TotalItemsOwnedLabel.Text = "Total Items owned by:";
+            TotalItemsOwnedLabel.Text = "物品持有者:";
             // 
             // TotalItemsLabel
             // 
@@ -178,7 +178,7 @@
             TotalItemsLabel.Name = "TotalItemsLabel";
             TotalItemsLabel.Size = new Size(70, 15);
             TotalItemsLabel.TabIndex = 6;
-            TotalItemsLabel.Text = "Total Items: ";
+            TotalItemsLabel.Text = "总物品数: ";
             // 
             // ActionsGroupBox
             // 
@@ -191,7 +191,7 @@
             ActionsGroupBox.Size = new Size(562, 84);
             ActionsGroupBox.TabIndex = 7;
             ActionsGroupBox.TabStop = false;
-            ActionsGroupBox.Text = "Actions";
+            ActionsGroupBox.Text = "操作";
             // 
             // ReasonTextBox
             // 
@@ -207,7 +207,7 @@
             ReasonLabel.Name = "ReasonLabel";
             ReasonLabel.Size = new Size(48, 15);
             ReasonLabel.TabIndex = 2;
-            ReasonLabel.Text = "Reason:";
+            ReasonLabel.Text = "原因:";
             // 
             // ExpireListingButton
             // 
@@ -215,7 +215,7 @@
             ExpireListingButton.Name = "ExpireListingButton";
             ExpireListingButton.Size = new Size(96, 23);
             ExpireListingButton.TabIndex = 1;
-            ExpireListingButton.Text = "Expire Listing";
+            ExpireListingButton.Text = "下架";
             ExpireListingButton.UseVisualStyleBackColor = true;
             ExpireListingButton.Click += ExpireListingButton_Click;
             // 
@@ -227,8 +227,8 @@
             Controls.Add(ActionsGroupBox);
             Controls.Add(SearchGroupBox);
             Controls.Add(MarketListing);
-            Name = "Market";
-            Text = "Market";
+            Name = "市场";
+            Text = "市场";
             SearchGroupBox.ResumeLayout(false);
             SearchGroupBox.PerformLayout();
             ActionsGroupBox.ResumeLayout(false);

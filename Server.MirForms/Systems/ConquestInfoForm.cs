@@ -759,7 +759,7 @@ namespace Server
         {
             if (selectedConquest == null) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Conquest?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要移除选中的攻城吗?", "移除物品?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             Envir.ConquestInfoList.Remove(selectedConquest);
 

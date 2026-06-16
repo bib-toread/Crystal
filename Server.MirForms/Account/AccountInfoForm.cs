@@ -346,7 +346,7 @@ namespace Server
 
         private void DayBanButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要封禁选中的账号吗?", "封禁选中。", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
 
             DateTime expiry = SMain.Envir.Now.AddDays(1);
 
@@ -365,7 +365,7 @@ namespace Server
 
         private void WeekBanButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要封禁选中的账号吗?", "封禁选中。", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
 
             DateTime expiry = SMain.Envir.Now.AddDays(7);
 
@@ -384,7 +384,7 @@ namespace Server
 
         private void PermBanButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
+            if (MessageBox.Show("确定要封禁选中的账号吗?", "封禁选中。", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
 
 
             AccountInfoListView.BeginUpdate();
@@ -483,12 +483,12 @@ namespace Server
         {
             if (SMain.Envir.Running)
             {
-                MessageBox.Show("Cannot wipe characters whilst the server is running", "Notice",
+                MessageBox.Show("服务器运行时无法清除角色", "提示",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
 
-            if (MessageBox.Show("Are you sure you want to wipe all characters from the database?", "Notice",
+            if (MessageBox.Show("确定要从数据库清除所有角色吗?", "提示",
                  MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
             {
                 for (int i = 0; i < SMain.Envir.AccountList.Count; i++)
@@ -501,7 +501,7 @@ namespace Server
                 SMain.Envir.Auctions.Clear();
                 SMain.Envir.GuildList.Clear();
 
-                MessageBox.Show("All characters and associated data has been cleared", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("所有角色及关联数据已清除", "提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
 
             }
         }
@@ -519,7 +519,7 @@ namespace Server
                     _selectedAccountInfos[i].RequirePasswordChange = true;
                     PasswordChangeCheckBox.CheckState = CheckState.Checked;
                     Update(AccountInfoListView.SelectedItems[i], _selectedAccountInfos[i]);
-                    MessageBox.Show("Password Changed");
+                    MessageBox.Show("密码已修改");
                 }
 
                 AutoResize();
@@ -531,7 +531,7 @@ namespace Server
         {
             if (_selectedAccountInfos == null || _selectedAccountInfos.Count == 0) return;
 
-            if (MessageBox.Show("Clear storage password for selected account(s)?", "Notice",
+            if (MessageBox.Show("清除选中账号的仓库密码?", "提示",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) != DialogResult.Yes)
                 return;
 
@@ -556,7 +556,7 @@ namespace Server
                 }
             }
 
-            MessageBox.Show("Storage password cleared.", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("仓库密码已清除。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
         private void PasswordChangeCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -590,7 +590,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"打开URL出错: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -610,7 +610,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"打开URL出错: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -620,7 +620,7 @@ namespace Server
             if (AccountInfoListView.SelectedItems.Count > 0)
             {
                 // Ask for confirmation
-                DialogResult result = MessageBox.Show("Are you sure you want to delete this account?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult result = MessageBox.Show("确定要删除此账号吗?", "确认", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
                     // Get the selected account from the ListViewItem's Tag property
@@ -638,7 +638,7 @@ namespace Server
             }
             else
             {
-                MessageBox.Show("Please select an account to remove.");
+                MessageBox.Show("请选择要移除的账号。");
             }
         }
     }

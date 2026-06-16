@@ -120,7 +120,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(627, 304);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Info";
+            this.tabPage1.Text = "信息";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // MonsterInfoPanel
@@ -208,7 +208,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 13);
             this.label11.TabIndex = 89;
-            this.label11.Text = "fileName:";
+            this.label11.Text = "文件名:";
             // 
             // UndeadCheckBox
             // 
@@ -217,7 +217,7 @@
             this.UndeadCheckBox.Name = "UndeadCheckBox";
             this.UndeadCheckBox.Size = new System.Drawing.Size(64, 17);
             this.UndeadCheckBox.TabIndex = 88;
-            this.UndeadCheckBox.Text = "Undead";
+            this.UndeadCheckBox.Text = "不死";
             this.UndeadCheckBox.UseVisualStyleBackColor = true;
             this.UndeadCheckBox.CheckedChanged += new System.EventHandler(this.UndeadCheckBox_CheckedChanged);
             // 
@@ -228,7 +228,7 @@
             this.AutoRevCheckBox.Name = "AutoRevCheckBox";
             this.AutoRevCheckBox.Size = new System.Drawing.Size(71, 17);
             this.AutoRevCheckBox.TabIndex = 87;
-            this.AutoRevCheckBox.Text = "Auto Rev";
+            this.AutoRevCheckBox.Text = "自动复活";
             this.AutoRevCheckBox.UseVisualStyleBackColor = true;
             this.AutoRevCheckBox.CheckedChanged += new System.EventHandler(this.AutoRevCheckBox_CheckedChanged);
             // 
@@ -250,7 +250,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(39, 13);
             this.label10.TabIndex = 86;
-            this.label10.Text = "Image:";
+            this.label10.Text = "图像:";
             // 
             // CoolEyeTextBox
             // 
@@ -268,7 +268,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(52, 13);
             this.label12.TabIndex = 84;
-            this.label12.Text = "Cool Eye:";
+            this.label12.Text = "视野范围:";
             // 
             // CanTameCheckBox
             // 
@@ -277,7 +277,7 @@
             this.CanTameCheckBox.Name = "CanTameCheckBox";
             this.CanTameCheckBox.Size = new System.Drawing.Size(75, 17);
             this.CanTameCheckBox.TabIndex = 82;
-            this.CanTameCheckBox.Text = "Can Tame";
+            this.CanTameCheckBox.Text = "可驯服";
             this.CanTameCheckBox.UseVisualStyleBackColor = true;
             this.CanTameCheckBox.CheckedChanged += new System.EventHandler(this.CanTameCheckBox_CheckedChanged);
             // 
@@ -288,7 +288,7 @@
             this.CanPushCheckBox.Name = "CanPushCheckBox";
             this.CanPushCheckBox.Size = new System.Drawing.Size(72, 17);
             this.CanPushCheckBox.TabIndex = 81;
-            this.CanPushCheckBox.Text = "Can Push";
+            this.CanPushCheckBox.Text = "可推开";
             this.CanPushCheckBox.UseVisualStyleBackColor = true;
             this.CanPushCheckBox.CheckedChanged += new System.EventHandler(this.CanPushCheckBox_CheckedChanged);
             // 
@@ -308,7 +308,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(68, 13);
             this.label33.TabIndex = 80;
-            this.label33.Text = "View Range:";
+            this.label33.Text = "视野范围:";
             // 
             // LightTextBox
             // 
@@ -326,7 +326,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(33, 13);
             this.label9.TabIndex = 76;
-            this.label9.Text = "Light:";
+            this.label9.Text = "光照:";
             // 
             // ExperienceTextBox
             // 
@@ -344,7 +344,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 13);
             this.label7.TabIndex = 74;
-            this.label7.Text = "Experience:";
+            this.label7.Text = "经验:";
             // 
             // MSpeedTextBox
             // 
@@ -362,7 +362,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 72;
-            this.label6.Text = "Move Speed:";
+            this.label6.Text = "移动速度:";
             // 
             // ASpeedTextBox
             // 
@@ -380,7 +380,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 13);
             this.label5.TabIndex = 70;
-            this.label5.Text = "Attack Speed:";
+            this.label5.Text = "攻击速度:";
             // 
             // LevelTextBox
             // 
@@ -398,7 +398,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 68;
-            this.label4.Text = "Level:";
+            this.label4.Text = "等级:";
             // 
             // EffectTextBox
             // 
@@ -416,7 +416,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 66;
-            this.label2.Text = "Effect:";
+            this.label2.Text = "效果:";
             // 
             // AITextBox
             // 
@@ -452,7 +452,7 @@
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(37, 13);
             this.label26.TabIndex = 58;
-            this.label26.Text = "Agility:";
+            this.label26.Text = "敏捷:";
             // 
             // AccuracyTextBox
             // 
@@ -470,7 +470,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(55, 13);
             this.label27.TabIndex = 56;
-            this.label27.Text = "Accuracy:";
+            this.label27.Text = "准确:";
             // 
             // HPTextBox
             // 
@@ -506,7 +506,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(47, 13);
             this.label22.TabIndex = 50;
-            this.label22.Text = "Max SC:";
+            this.label22.Text = "最大SC:";
             // 
             // MinSCTextBox
             // 
@@ -524,7 +524,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(44, 13);
             this.label23.TabIndex = 48;
-            this.label23.Text = "Min SC:";
+            this.label23.Text = "最小SC:";
             // 
             // MaxMCTextBox
             // 
@@ -542,7 +542,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(49, 13);
             this.label18.TabIndex = 46;
-            this.label18.Text = "Max MC:";
+            this.label18.Text = "最大MC:";
             // 
             // MinMCTextBox
             // 
@@ -560,7 +560,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 13);
             this.label19.TabIndex = 44;
-            this.label19.Text = "Min MC:";
+            this.label19.Text = "最小MC:";
             // 
             // MaxDCTextBox
             // 
@@ -578,7 +578,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(48, 13);
             this.label20.TabIndex = 42;
-            this.label20.Text = "Max DC:";
+            this.label20.Text = "最大DC:";
             // 
             // MinDCTextBox
             // 
@@ -596,7 +596,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(45, 13);
             this.label21.TabIndex = 40;
-            this.label21.Text = "Min DC:";
+            this.label21.Text = "最小DC:";
             // 
             // MaxMACTextBox
             // 
@@ -614,7 +614,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(56, 13);
             this.label16.TabIndex = 38;
-            this.label16.Text = "Max MAC:";
+            this.label16.Text = "最大MAC:";
             // 
             // MinMACTextBox
             // 
@@ -632,7 +632,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(53, 13);
             this.label17.TabIndex = 14;
-            this.label17.Text = "Min MAC:";
+            this.label17.Text = "最小MAC:";
             // 
             // MaxACTextBox
             // 
@@ -650,7 +650,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(47, 13);
             this.label15.TabIndex = 34;
-            this.label15.Text = "Max AC:";
+            this.label15.Text = "最大AC:";
             // 
             // MinACTextBox
             // 
@@ -668,7 +668,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 13);
             this.label14.TabIndex = 32;
-            this.label14.Text = "Min AC:";
+            this.label14.Text = "最小AC:";
             // 
             // MonsterNameTextBox
             // 
@@ -685,7 +685,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Monster Name:";
+            this.label3.Text = "怪物名称:";
             // 
             // MonsterIndexTextBox
             // 
@@ -702,7 +702,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Monster Index:";
+            this.label1.Text = "怪物编号:";
             // 
             // RemoveButton
             // 
@@ -710,7 +710,7 @@
             this.RemoveButton.Name = "RemoveButton";
             this.RemoveButton.Size = new System.Drawing.Size(75, 23);
             this.RemoveButton.TabIndex = 14;
-            this.RemoveButton.Text = "Remove";
+            this.RemoveButton.Text = "移除";
             this.RemoveButton.UseVisualStyleBackColor = true;
             this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
@@ -720,7 +720,7 @@
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(75, 23);
             this.AddButton.TabIndex = 13;
-            this.AddButton.Text = "Add";
+            this.AddButton.Text = "添加";
             this.AddButton.UseVisualStyleBackColor = true;
             this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
@@ -742,7 +742,7 @@
             this.PasteMButton.Name = "PasteMButton";
             this.PasteMButton.Size = new System.Drawing.Size(44, 23);
             this.PasteMButton.TabIndex = 22;
-            this.PasteMButton.Text = "Paste";
+            this.PasteMButton.Text = "粘贴";
             this.PasteMButton.UseVisualStyleBackColor = true;
             this.PasteMButton.Click += new System.EventHandler(this.PasteMButton_Click);
             // 
@@ -752,7 +752,7 @@
             this.CopyMButton.Name = "CopyMButton";
             this.CopyMButton.Size = new System.Drawing.Size(44, 23);
             this.CopyMButton.TabIndex = 21;
-            this.CopyMButton.Text = "Copy";
+            this.CopyMButton.Text = "复制";
             this.CopyMButton.UseVisualStyleBackColor = true;
             // 
             // DropBuilderButton
@@ -761,7 +761,7 @@
             this.DropBuilderButton.Name = "DropBuilderButton";
             this.DropBuilderButton.Size = new System.Drawing.Size(75, 23);
             this.DropBuilderButton.TabIndex = 26;
-            this.DropBuilderButton.Text = "Drop Builder";
+            this.DropBuilderButton.Text = "掉落编辑器";
             this.DropBuilderButton.UseVisualStyleBackColor = true;
             this.DropBuilderButton.Click += new System.EventHandler(this.DropBuilderButton_Click);
             // 
@@ -780,7 +780,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(58, 13);
             this.label13.TabIndex = 92;
-            this.label13.Text = "Drop Path:";
+            this.label13.Text = "掉落路径:";
             // 
             // MonsterInfoForm
             // 
@@ -794,8 +794,8 @@
             this.Controls.Add(this.RemoveButton);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.MonsterInfoListBox);
-            this.Name = "MonsterInfoForm";
-            this.Text = "MonsterInfoForm";
+            this.Name = "怪物信息";
+            this.Text = "怪物信息";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MonsterInfoForm_FormClosed);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

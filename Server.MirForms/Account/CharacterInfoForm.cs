@@ -38,7 +38,7 @@ namespace Server.Account
 
             if (characterList == null)
             {
-                MessageBox.Show("Character list is not available.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("角色列表不可用。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

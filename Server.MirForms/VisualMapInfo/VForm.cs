@@ -94,7 +94,7 @@ namespace Server.MirForms.VisualMapInfo
             miningFilterItems.Add("No Filter");
 
             MiningFilter.DataSource = miningFilterItems;
-            MiningFilter.Text = "No Filter";
+            MiningFilter.Text = "无筛选";
 
             for (int i = 0; i < VisualizerGlobal.MapInfo.MineZones.Count; i++)
             {
@@ -119,7 +119,7 @@ namespace Server.MirForms.VisualMapInfo
                 RespawnsFilter.Items.Add(Envir.MonsterInfoList[i]);
 
             RespawnsFilter.Items.Add("No Filter");
-            RespawnsFilter.Text = "No Filter";
+            RespawnsFilter.Text = "无筛选";
 
             for (int i = 0; i < VisualizerGlobal.MapInfo.Respawns.Count; i++)
             {
@@ -512,7 +512,7 @@ namespace Server.MirForms.VisualMapInfo
         {
             if (MiningPanel.Controls.Count == 0) return;
 
-            DialogResult result = MessageBox.Show("Remove selected records?", "", MessageBoxButtons.YesNoCancel);
+            DialogResult result = MessageBox.Show("移除选中记录?", "", MessageBoxButtons.YesNoCancel);
             if (result != DialogResult.Yes) return;
 
             for (int i = MiningPanel.Controls.Count; i > -1; --i)
@@ -642,7 +642,7 @@ namespace Server.MirForms.VisualMapInfo
         {
             if (RespawnPanel.Controls.Count == 0) return;
 
-            DialogResult result = MessageBox.Show("Remove selected records?", "", MessageBoxButtons.YesNoCancel);
+            DialogResult result = MessageBox.Show("移除选中记录?", "", MessageBoxButtons.YesNoCancel);
             if (result != DialogResult.Yes) return;
 
             for (int i = RespawnPanel.Controls.Count; i > -1; --i)

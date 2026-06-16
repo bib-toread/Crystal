@@ -117,7 +117,7 @@
             this.EndFocus.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.EndFocus.Name = "EndFocus";
             this.EndFocus.Size = new System.Drawing.Size(28, 28);
-            this.EndFocus.Text = "End Focus";
+            this.EndFocus.Text = "结束聚焦";
             this.EndFocus.Visible = false;
             this.EndFocus.Click += new System.EventHandler(this.EndFocus_Click);
             // 
@@ -140,7 +140,7 @@
             this.SelectButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SelectButton.Name = "SelectButton";
             this.SelectButton.Size = new System.Drawing.Size(28, 28);
-            this.SelectButton.Text = "Select Region";
+            this.SelectButton.Text = "选择区域";
             this.SelectButton.Click += new System.EventHandler(this.ToolSelectedChanged);
             // 
             // AddButton
@@ -154,7 +154,7 @@
             this.AddButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(28, 28);
-            this.AddButton.Text = "Add Region";
+            this.AddButton.Text = "添加区域";
             this.AddButton.Click += new System.EventHandler(this.ToolSelectedChanged);
             // 
             // MoveButton
@@ -167,7 +167,7 @@
             this.MoveButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MoveButton.Name = "MoveButton";
             this.MoveButton.Size = new System.Drawing.Size(28, 28);
-            this.MoveButton.Text = "Move Region";
+            this.MoveButton.Text = "移动区域";
             this.MoveButton.Click += new System.EventHandler(this.ToolSelectedChanged);
             // 
             // ResizeButton
@@ -180,7 +180,7 @@
             this.ResizeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ResizeButton.Name = "ResizeButton";
             this.ResizeButton.Size = new System.Drawing.Size(28, 28);
-            this.ResizeButton.Text = "Resize Region";
+            this.ResizeButton.Text = "调整区域大小";
             this.ResizeButton.Click += new System.EventHandler(this.ToolSelectedChanged);
             // 
             // splitter1
@@ -203,7 +203,7 @@
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(242, 443);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Respawns";
+            this.tabPage2.Text = "刷新点";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // RespawnPanel
@@ -240,7 +240,7 @@
             this.RespawnsRemoveSelected.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.RespawnsRemoveSelected.Name = "RespawnsRemoveSelected";
             this.RespawnsRemoveSelected.Size = new System.Drawing.Size(23, 22);
-            this.RespawnsRemoveSelected.Text = "Remove Selected";
+            this.RespawnsRemoveSelected.Text = "移除选中";
             this.RespawnsRemoveSelected.Click += new System.EventHandler(this.RespawnsRemoveSelected_Click);
             // 
             // ResapwnsHideRegion
@@ -250,7 +250,7 @@
             this.ResapwnsHideRegion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ResapwnsHideRegion.Name = "ResapwnsHideRegion";
             this.ResapwnsHideRegion.Size = new System.Drawing.Size(23, 22);
-            this.ResapwnsHideRegion.Text = "Hide Region";
+            this.ResapwnsHideRegion.Text = "隐藏区域";
             this.ResapwnsHideRegion.Click += new System.EventHandler(this.ResapwnsHideRegion_Click);
             // 
             // ResapwnsShowRegion
@@ -260,7 +260,7 @@
             this.ResapwnsShowRegion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ResapwnsShowRegion.Name = "ResapwnsShowRegion";
             this.ResapwnsShowRegion.Size = new System.Drawing.Size(23, 22);
-            this.ResapwnsShowRegion.Text = "Show Region";
+            this.ResapwnsShowRegion.Text = "显示区域";
             this.ResapwnsShowRegion.Click += new System.EventHandler(this.ResapwnsShowRegion_Click);
             // 
             // toolStripSeparator2
@@ -275,7 +275,7 @@
             this.ResapwnsFocusRegion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ResapwnsFocusRegion.Name = "ResapwnsFocusRegion";
             this.ResapwnsFocusRegion.Size = new System.Drawing.Size(23, 22);
-            this.ResapwnsFocusRegion.Text = "Focus Region";
+            this.ResapwnsFocusRegion.Text = "聚焦区域";
             this.ResapwnsFocusRegion.Click += new System.EventHandler(this.ResapwnsFocusRegion_Click);
             // 
             // RespawnsFilter
@@ -310,7 +310,7 @@
             this.RespawnsSelectAll.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.RespawnsSelectAll.Name = "RespawnsSelectAll";
             this.RespawnsSelectAll.Size = new System.Drawing.Size(23, 22);
-            this.RespawnsSelectAll.Text = "Select All";
+            this.RespawnsSelectAll.Text = "全选";
             this.RespawnsSelectAll.Click += new System.EventHandler(this.RespawnsSelectAll_Click);
             // 
             // RespawnsSelectNone
@@ -320,7 +320,7 @@
             this.RespawnsSelectNone.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.RespawnsSelectNone.Name = "RespawnsSelectNone";
             this.RespawnsSelectNone.Size = new System.Drawing.Size(23, 22);
-            this.RespawnsSelectNone.Text = "Select None";
+            this.RespawnsSelectNone.Text = "全不选";
             this.RespawnsSelectNone.Click += new System.EventHandler(this.RespawnsSelectNone_Click);
             // 
             // RespawnsInvertSelection
@@ -330,7 +330,7 @@
             this.RespawnsInvertSelection.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.RespawnsInvertSelection.Name = "RespawnsInvertSelection";
             this.RespawnsInvertSelection.Size = new System.Drawing.Size(23, 22);
-            this.RespawnsInvertSelection.Text = "Invert Selection";
+            this.RespawnsInvertSelection.Text = "反选";
             this.RespawnsInvertSelection.Click += new System.EventHandler(this.RespawnsInvertSelection_Click);
             // 
             // tabPage4
@@ -343,7 +343,7 @@
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(242, 443);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Mining";
+            this.tabPage4.Text = "采矿";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // MiningPanel
@@ -386,7 +386,7 @@
             this.MiningSelectAll.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningSelectAll.Name = "MiningSelectAll";
             this.MiningSelectAll.Size = new System.Drawing.Size(23, 22);
-            this.MiningSelectAll.Text = "Select All";
+            this.MiningSelectAll.Text = "全选";
             this.MiningSelectAll.Click += new System.EventHandler(this.MiningSelectAll_Click);
             // 
             // MiningSelectNone
@@ -396,7 +396,7 @@
             this.MiningSelectNone.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningSelectNone.Name = "MiningSelectNone";
             this.MiningSelectNone.Size = new System.Drawing.Size(23, 22);
-            this.MiningSelectNone.Text = "Select None";
+            this.MiningSelectNone.Text = "全不选";
             this.MiningSelectNone.Click += new System.EventHandler(this.MiningSelectNone_Click);
             // 
             // MiningInvertSelection
@@ -406,7 +406,7 @@
             this.MiningInvertSelection.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningInvertSelection.Name = "MiningInvertSelection";
             this.MiningInvertSelection.Size = new System.Drawing.Size(23, 22);
-            this.MiningInvertSelection.Text = "Invert Selection";
+            this.MiningInvertSelection.Text = "反选";
             this.MiningInvertSelection.Click += new System.EventHandler(this.MiningInvertSelection_Click);
             // 
             // toolStrip1
@@ -434,7 +434,7 @@
             this.MiningRemoveSelected.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningRemoveSelected.Name = "MiningRemoveSelected";
             this.MiningRemoveSelected.Size = new System.Drawing.Size(23, 22);
-            this.MiningRemoveSelected.Text = "Remove Selected";
+            this.MiningRemoveSelected.Text = "移除选中";
             this.MiningRemoveSelected.Click += new System.EventHandler(this.MiningRemoveSelected_Click);
             // 
             // MiningHideRegion
@@ -444,7 +444,7 @@
             this.MiningHideRegion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningHideRegion.Name = "MiningHideRegion";
             this.MiningHideRegion.Size = new System.Drawing.Size(23, 22);
-            this.MiningHideRegion.Text = "Hide Region";
+            this.MiningHideRegion.Text = "隐藏区域";
             this.MiningHideRegion.Click += new System.EventHandler(this.MiningHideRegion_Click);
             // 
             // MiningShowRegion
@@ -454,7 +454,7 @@
             this.MiningShowRegion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningShowRegion.Name = "MiningShowRegion";
             this.MiningShowRegion.Size = new System.Drawing.Size(23, 22);
-            this.MiningShowRegion.Text = "Show Region";
+            this.MiningShowRegion.Text = "显示区域";
             this.MiningShowRegion.Click += new System.EventHandler(this.MiningShowRegion_Click);
             // 
             // toolStripSeparator1
@@ -469,7 +469,7 @@
             this.MiningFocusRegion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.MiningFocusRegion.Name = "MiningFocusRegion";
             this.MiningFocusRegion.Size = new System.Drawing.Size(23, 22);
-            this.MiningFocusRegion.Text = "Focus Region";
+            this.MiningFocusRegion.Text = "聚焦区域";
             this.MiningFocusRegion.Click += new System.EventHandler(this.MiningFocusRegion_Click);
             // 
             // RegionTabs
@@ -503,7 +503,7 @@
             this.MapDetailsLabel.BorderStyle = System.Windows.Forms.Border3DStyle.Sunken;
             this.MapDetailsLabel.Name = "MapDetailsLabel";
             this.MapDetailsLabel.Size = new System.Drawing.Size(216, 19);
-            this.MapDetailsLabel.Text = "Map Name: {0}   Width: {1}   Height: {2}";
+            this.MapDetailsLabel.Text = "地图名称: {0}   宽: {1}   高: {2}";
             // 
             // mapContainer1
             // 
@@ -538,7 +538,7 @@
             this.Controls.Add(this.statusStrip1);
             this.DoubleBuffered = true;
             this.Name = "VForm";
-            this.Text = "Visualizer";
+            this.Text = "可视化";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VForm_FormClosing);
             this.Load += new System.EventHandler(this.VForm_Load);
             this.Tool.ResumeLayout(false);

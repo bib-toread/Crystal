@@ -48,7 +48,7 @@ namespace Server
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 1;
-            this.okButton.Text = "OK";
+            this.okButton.Text = "确定";
             this.okButton.UseVisualStyleBackColor = true;
             // 
             // cancelButton
@@ -58,7 +58,7 @@ namespace Server
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(75, 23);
             this.cancelButton.TabIndex = 2;
-            this.cancelButton.Text = "Cancel";
+            this.cancelButton.Text = "取消";
             this.cancelButton.UseVisualStyleBackColor = true;
             // 
             // ChangePasswordDialog
@@ -70,7 +70,7 @@ namespace Server
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.PasswordTextBox);
             this.Name = "ChangePasswordDialog";
-            this.Text = "Set Password";
+            this.Text = "设置密码";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -65,7 +65,7 @@
             NamelistsGroupBox.Size = new Size(230, 556);
             NamelistsGroupBox.TabIndex = 0;
             NamelistsGroupBox.TabStop = false;
-            NamelistsGroupBox.Text = "Namelists";
+            NamelistsGroupBox.Text = "名单";
             // 
             // NamelistView
             // 
@@ -91,7 +91,7 @@
             PlayersGroupBox.Size = new Size(230, 556);
             PlayersGroupBox.TabIndex = 1;
             PlayersGroupBox.TabStop = false;
-            PlayersGroupBox.Text = "Players";
+            PlayersGroupBox.Text = "玩家";
             // 
             // NamelistViewBox
             // 
@@ -119,7 +119,7 @@
             groupBox1.Size = new Size(280, 79);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Search";
+            groupBox1.Text = "搜索";
             // 
             // FindPlayerBox
             // 
@@ -134,7 +134,7 @@
             RefreshButton.Name = "RefreshButton";
             RefreshButton.Size = new Size(75, 23);
             RefreshButton.TabIndex = 8;
-            RefreshButton.Text = "Refresh";
+            RefreshButton.Text = "刷新";
             RefreshButton.UseVisualStyleBackColor = true;
             RefreshButton.Click += RefreshButton_Click;
             // 
@@ -145,7 +145,7 @@
             NamelistCountLabel.Name = "NamelistCountLabel";
             NamelistCountLabel.Size = new Size(121, 15);
             NamelistCountLabel.TabIndex = 7;
-            NamelistCountLabel.Text = "Found in: x Namelists";
+            NamelistCountLabel.Text = "在 x 个名单中找到";
             // 
             // label1
             // 
@@ -154,7 +154,7 @@
             label1.Name = "label1";
             label1.Size = new Size(39, 15);
             label1.TabIndex = 6;
-            label1.Text = "Player";
+            label1.Text = "玩家";
             // 
             // PlayerActionsGroupBox
             // 
@@ -165,7 +165,7 @@
             PlayerActionsGroupBox.Size = new Size(280, 60);
             PlayerActionsGroupBox.TabIndex = 3;
             PlayerActionsGroupBox.TabStop = false;
-            PlayerActionsGroupBox.Text = "Actions - Player";
+            PlayerActionsGroupBox.Text = "操作 - 玩家";
             // 
             // AddPlayerButton
             // 
@@ -173,7 +173,7 @@
             AddPlayerButton.Name = "AddPlayerButton";
             AddPlayerButton.Size = new Size(100, 23);
             AddPlayerButton.TabIndex = 7;
-            AddPlayerButton.Text = "Add Player";
+            AddPlayerButton.Text = "添加玩家";
             AddPlayerButton.UseVisualStyleBackColor = true;
             AddPlayerButton.Click += AddPlayerButton_Click;
             // 
@@ -183,7 +183,7 @@
             DeletePlayerButton.Name = "DeletePlayerButton";
             DeletePlayerButton.Size = new Size(100, 23);
             DeletePlayerButton.TabIndex = 6;
-            DeletePlayerButton.Text = "Delete Player";
+            DeletePlayerButton.Text = "删除玩家";
             DeletePlayerButton.UseVisualStyleBackColor = true;
             DeletePlayerButton.Click += DeletePlayerButton_Click;
             // 
@@ -196,7 +196,7 @@
             NamelistActionsGroupBox.Size = new Size(280, 60);
             NamelistActionsGroupBox.TabIndex = 4;
             NamelistActionsGroupBox.TabStop = false;
-            NamelistActionsGroupBox.Text = "Actions - Namelist";
+            NamelistActionsGroupBox.Text = "操作 - 名单";
             // 
             // DeleteNamelistButton
             // 
@@ -204,7 +204,7 @@
             DeleteNamelistButton.Name = "DeleteNamelistButton";
             DeleteNamelistButton.Size = new Size(100, 23);
             DeleteNamelistButton.TabIndex = 9;
-            DeleteNamelistButton.Text = "Delete Namelist";
+            DeleteNamelistButton.Text = "删除名单";
             DeleteNamelistButton.UseVisualStyleBackColor = true;
             DeleteNamelistButton.Click += DeleteNamelistButton_Click;
             // 
@@ -214,7 +214,7 @@
             CreateNamelistButton.Name = "CreateNamelistButton";
             CreateNamelistButton.Size = new Size(100, 23);
             CreateNamelistButton.TabIndex = 8;
-            CreateNamelistButton.Text = "Create Namelist";
+            CreateNamelistButton.Text = "创建名单";
             CreateNamelistButton.UseVisualStyleBackColor = true;
             CreateNamelistButton.Click += CreateNamelistButton_Click;
             // 
@@ -228,7 +228,7 @@
             StatisticsGroupBox.Size = new Size(278, 100);
             StatisticsGroupBox.TabIndex = 5;
             StatisticsGroupBox.TabStop = false;
-            StatisticsGroupBox.Text = "Statistics";
+            StatisticsGroupBox.Text = "统计";
             // 
             // TotalUniquePlayerLabel
             // 
@@ -237,7 +237,7 @@
             TotalUniquePlayerLabel.Name = "TotalUniquePlayerLabel";
             TotalUniquePlayerLabel.Size = new Size(216, 15);
             TotalUniquePlayerLabel.TabIndex = 10;
-            TotalUniquePlayerLabel.Text = "Total Unique Players: x (In all Namelists)";
+            TotalUniquePlayerLabel.Text = "总独立玩家数: x(所有名单中)";
             // 
             // TotalPlayerLabel
             // 
@@ -246,7 +246,7 @@
             TotalPlayerLabel.Name = "TotalPlayerLabel";
             TotalPlayerLabel.Size = new Size(175, 15);
             TotalPlayerLabel.TabIndex = 9;
-            TotalPlayerLabel.Text = "Total Players: x (In all Namelists)";
+            TotalPlayerLabel.Text = "总玩家数: x(所有名单中)";
             // 
             // NamelistCount
             // 
@@ -255,7 +255,7 @@
             NamelistCount.Name = "NamelistCount";
             NamelistCount.Size = new Size(102, 15);
             NamelistCount.TabIndex = 8;
-            NamelistCount.Text = "Namelist Count: x";
+            NamelistCount.Text = "名单数量: x";
             // 
             // columnHeader1
             // 
@@ -276,8 +276,8 @@
             Controls.Add(groupBox1);
             Controls.Add(PlayersGroupBox);
             Controls.Add(NamelistsGroupBox);
-            Name = "Namelists";
-            Text = "Namelists";
+            Name = "名单";
+            Text = "名单";
             NamelistsGroupBox.ResumeLayout(false);
             PlayersGroupBox.ResumeLayout(false);
             groupBox1.ResumeLayout(false);

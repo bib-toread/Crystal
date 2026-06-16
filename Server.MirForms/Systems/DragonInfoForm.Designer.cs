@@ -97,7 +97,7 @@
             this.EnableDragonCheckBox.Name = "EnableDragonCheckBox";
             this.EnableDragonCheckBox.Size = new System.Drawing.Size(97, 17);
             this.EnableDragonCheckBox.TabIndex = 23;
-            this.EnableDragonCheckBox.Text = "Enable Dragon";
+            this.EnableDragonCheckBox.Text = "启用神龙";
             this.EnableDragonCheckBox.UseVisualStyleBackColor = true;
             this.EnableDragonCheckBox.CheckStateChanged += new System.EventHandler(this.EnableDragonCheckBox_CheckStateChanged);
             // 
@@ -130,7 +130,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(300, 185);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Config";
+            this.tabPage1.Text = "配置";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -140,7 +140,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Map File Name:";
+            this.label1.Text = "地图文件名:";
             // 
             // MapFileNameTextBox
             // 
@@ -218,7 +218,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 13);
             this.label11.TabIndex = 20;
-            this.label11.Text = "Bottom:";
+            this.label11.Text = "下限:";
             // 
             // label12
             // 
@@ -236,7 +236,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(29, 13);
             this.label10.TabIndex = 19;
-            this.label10.Text = "Top:";
+            this.label10.Text = "上限:";
             // 
             // DropAreaTopXTextBox
             // 
@@ -262,7 +262,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(58, 13);
             this.label13.TabIndex = 18;
-            this.label13.Text = "Drop Area:";
+            this.label13.Text = "掉落区域:";
             // 
             // label2
             // 
@@ -293,7 +293,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(31, 13);
             this.label9.TabIndex = 21;
-            this.label9.Text = "#exp";
+            this.label9.Text = "#经验";
             // 
             // label8
             // 
@@ -303,7 +303,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(36, 13);
             this.label8.TabIndex = 20;
-            this.label8.Text = "#level";
+            this.label8.Text = "#等级";
             // 
             // label7
             // 
@@ -313,7 +313,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 13);
             this.label7.TabIndex = 19;
-            this.label7.Text = "Experience:";
+            this.label7.Text = "经验:";
             // 
             // label6
             // 
@@ -323,7 +323,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(36, 13);
             this.label6.TabIndex = 18;
-            this.label6.Text = "Level:";
+            this.label6.Text = "等级:";
             // 
             // XTextBox
             // 
@@ -340,7 +340,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 13);
             this.label5.TabIndex = 16;
-            this.label5.Text = "Body Name:";
+            this.label5.Text = "身体名称:";
             // 
             // label3
             // 
@@ -374,7 +374,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Monster Name:";
+            this.label4.Text = "怪物名称:";
             // 
             // MonsterNameTextBox
             // 
@@ -415,7 +415,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(300, 185);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Exps";
+            this.tabPage2.Text = "经验";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label23
@@ -425,7 +425,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(48, 13);
             this.label23.TabIndex = 32;
-            this.label23.Text = "Level 12";
+            this.label23.Text = "12级";
             // 
             // label17
             // 
@@ -434,7 +434,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(42, 13);
             this.label17.TabIndex = 10;
-            this.label17.Text = "Level 1";
+            this.label17.Text = "1级";
             // 
             // Level6ExpTextBox
             // 
@@ -551,7 +551,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(42, 13);
             this.label22.TabIndex = 20;
-            this.label22.Text = "Level 6";
+            this.label22.Text = "6级";
             // 
             // label21
             // 
@@ -560,7 +560,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(42, 13);
             this.label21.TabIndex = 18;
-            this.label21.Text = "Level 5";
+            this.label21.Text = "5级";
             // 
             // label24
             // 
@@ -569,7 +569,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(48, 13);
             this.label24.TabIndex = 30;
-            this.label24.Text = "Level 11";
+            this.label24.Text = "11级";
             // 
             // label28
             // 
@@ -578,7 +578,7 @@
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(42, 13);
             this.label28.TabIndex = 22;
-            this.label28.Text = "Level 7";
+            this.label28.Text = "7级";
             // 
             // label20
             // 
@@ -587,7 +587,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(42, 13);
             this.label20.TabIndex = 16;
-            this.label20.Text = "Level 4";
+            this.label20.Text = "4级";
             // 
             // label25
             // 
@@ -596,7 +596,7 @@
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(48, 13);
             this.label25.TabIndex = 28;
-            this.label25.Text = "Level 10";
+            this.label25.Text = "10级";
             // 
             // label27
             // 
@@ -605,7 +605,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(42, 13);
             this.label27.TabIndex = 24;
-            this.label27.Text = "Level 8";
+            this.label27.Text = "8级";
             // 
             // label18
             // 
@@ -614,7 +614,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(42, 13);
             this.label18.TabIndex = 12;
-            this.label18.Text = "Level 2";
+            this.label18.Text = "2级";
             // 
             // label19
             // 
@@ -623,7 +623,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(42, 13);
             this.label19.TabIndex = 14;
-            this.label19.Text = "Level 3";
+            this.label19.Text = "3级";
             // 
             // label26
             // 
@@ -632,7 +632,7 @@
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(42, 13);
             this.label26.TabIndex = 26;
-            this.label26.Text = "Level 9";
+            this.label26.Text = "9级";
             // 
             // DragonInfoForm
             // 
@@ -644,8 +644,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "DragonInfoForm";
-            this.Text = "DragonInfoForm";
+            this.Name = "神龙信息";
+            this.Text = "神龙信息";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DragonInfoForm_FormClosed);
             this.Load += new System.EventHandler(this.DragonInfoForm_Load);
             this.tabControl1.ResumeLayout(false);

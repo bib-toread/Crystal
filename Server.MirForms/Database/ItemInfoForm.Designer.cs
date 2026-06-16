@@ -231,7 +231,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(124, 13);
             this.label64.TabIndex = 137;
-            this.label64.Text = "All Damage Reduction %";
+            this.label64.Text = "全伤害减免%";
             // 
             // GoldRatetextBox
             // 
@@ -249,7 +249,7 @@
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(66, 13);
             this.label63.TabIndex = 135;
-            this.label63.Text = "Gold Rate %:";
+            this.label63.Text = "金币倍率%:";
             // 
             // DropRatetextBox
             // 
@@ -267,7 +267,7 @@
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(67, 13);
             this.label62.TabIndex = 133;
-            this.label62.Text = "Drop Rate %:";
+            this.label62.Text = "掉落倍率%:";
             // 
             // ExpRatetextBox
             // 
@@ -285,7 +285,7 @@
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(62, 13);
             this.label61.TabIndex = 130;
-            this.label61.Text = "Exp Rate %:";
+            this.label61.Text = "经验倍率%:";
             // 
             // MaxSCRatetextBox
             // 
@@ -303,7 +303,7 @@
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(58, 13);
             this.label60.TabIndex = 130;
-            this.label60.Text = "Max SC %:";
+            this.label60.Text = "最大SC%:";
             // 
             // MaxMCRatetextBox
             // 
@@ -321,7 +321,7 @@
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(60, 13);
             this.label59.TabIndex = 129;
-            this.label59.Text = "Max MC %:";
+            this.label59.Text = "最大MC%:";
             // 
             // MaxDCRatetextBox
             // 
@@ -339,7 +339,7 @@
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(59, 13);
             this.label58.TabIndex = 128;
-            this.label58.Text = "Max DC %:";
+            this.label58.Text = "最大DC%:";
             // 
             // ItemInfoPanel
             // 
@@ -422,7 +422,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(601, 390);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "General";
+            this.tabPage1.Text = "常规";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // label57
@@ -432,7 +432,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(33, 13);
             this.label57.TabIndex = 126;
-            this.label57.Text = "Slots:";
+            this.label57.Text = "插槽数:";
             // 
             // SlotsTextBox
             // 
@@ -449,7 +449,7 @@
             this.globalDropNotify_CheckBox.Name = "globalDropNotify_CheckBox";
             this.globalDropNotify_CheckBox.Size = new System.Drawing.Size(128, 17);
             this.globalDropNotify_CheckBox.TabIndex = 124;
-            this.globalDropNotify_CheckBox.Text = "Notify Server on Drop";
+            this.globalDropNotify_CheckBox.Text = "掉落通知服务器";
             this.globalDropNotify_CheckBox.UseVisualStyleBackColor = true;
             this.globalDropNotify_CheckBox.CheckedChanged += new System.EventHandler(this.globalDropNotify_CheckBox_CheckedChanged);
             // 
@@ -460,7 +460,7 @@
             this.CanAwaken.Name = "CanAwaken";
             this.CanAwaken.Size = new System.Drawing.Size(87, 17);
             this.CanAwaken.TabIndex = 114;
-            this.CanAwaken.Text = "Can Awaken";
+            this.CanAwaken.Text = "可觉醒";
             this.CanAwaken.UseVisualStyleBackColor = true;
             this.CanAwaken.CheckedChanged += new System.EventHandler(this.CanAwakening_CheckedChanged);
             // 
@@ -471,7 +471,7 @@
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(46, 13);
             this.label56.TabIndex = 123;
-            this.label56.Text = "ToolTip:";
+            this.label56.Text = "提示:";
             // 
             // TooltipTextBox
             // 
@@ -489,7 +489,7 @@
             this.FastRunCheckBox.Name = "FastRunCheckBox";
             this.FastRunCheckBox.Size = new System.Drawing.Size(69, 17);
             this.FastRunCheckBox.TabIndex = 121;
-            this.FastRunCheckBox.Text = "Fast Run";
+            this.FastRunCheckBox.Text = "疾跑";
             this.FastRunCheckBox.UseVisualStyleBackColor = true;
             this.FastRunCheckBox.CheckedChanged += new System.EventHandler(this.FastRunCheckBox_CheckedChanged);
             // 
@@ -500,7 +500,7 @@
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(62, 13);
             this.label55.TabIndex = 120;
-            this.label55.Text = "Item Grade:";
+            this.label55.Text = "物品品级:";
             // 
             // IGradeComboBox
             // 
@@ -528,7 +528,7 @@
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(77, 13);
             this.label54.TabIndex = 114;
-            this.label54.Text = "Random Stats:";
+            this.label54.Text = "随机属性:";
             // 
             // LightIntensitytextBox
             // 
@@ -546,7 +546,7 @@
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(49, 13);
             this.label53.TabIndex = 113;
-            this.label53.Text = "Intensity:";
+            this.label53.Text = "强度:";
             // 
             // NeedIdentifycheckbox
             // 
@@ -555,7 +555,7 @@
             this.NeedIdentifycheckbox.Name = "NeedIdentifycheckbox";
             this.NeedIdentifycheckbox.Size = new System.Drawing.Size(89, 17);
             this.NeedIdentifycheckbox.TabIndex = 110;
-            this.NeedIdentifycheckbox.Text = "Mystery Stats";
+            this.NeedIdentifycheckbox.Text = "神秘属性";
             this.NeedIdentifycheckbox.UseVisualStyleBackColor = true;
             this.NeedIdentifycheckbox.CheckedChanged += new System.EventHandler(this.NeedIdentifycheckbox_CheckedChanged);
             // 
@@ -566,7 +566,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Item Index:";
+            this.label1.Text = "物品编号:";
             // 
             // ItemIndexTextBox
             // 
@@ -583,7 +583,7 @@
             this.StartItemCheckBox.Name = "StartItemCheckBox";
             this.StartItemCheckBox.Size = new System.Drawing.Size(85, 17);
             this.StartItemCheckBox.TabIndex = 63;
-            this.StartItemCheckBox.Text = "Starting Item";
+            this.StartItemCheckBox.Text = "初始物品";
             this.StartItemCheckBox.UseVisualStyleBackColor = true;
             this.StartItemCheckBox.CheckedChanged += new System.EventHandler(this.StartItemCheckBox_CheckedChanged);
             // 
@@ -594,7 +594,7 @@
             this.ClassBasedcheckbox.Name = "ClassBasedcheckbox";
             this.ClassBasedcheckbox.Size = new System.Drawing.Size(81, 17);
             this.ClassBasedcheckbox.TabIndex = 100;
-            this.ClassBasedcheckbox.Text = "ClassBased";
+            this.ClassBasedcheckbox.Text = "按职业";
             this.ClassBasedcheckbox.UseVisualStyleBackColor = true;
             this.ClassBasedcheckbox.CheckedChanged += new System.EventHandler(this.ClassBasedcheckbox_CheckedChanged);
             // 
@@ -605,7 +605,7 @@
             this.LevelBasedcheckbox.Name = "LevelBasedcheckbox";
             this.LevelBasedcheckbox.Size = new System.Drawing.Size(82, 17);
             this.LevelBasedcheckbox.TabIndex = 101;
-            this.LevelBasedcheckbox.Text = "LevelBased";
+            this.LevelBasedcheckbox.Text = "按等级";
             this.LevelBasedcheckbox.UseVisualStyleBackColor = true;
             this.LevelBasedcheckbox.CheckedChanged += new System.EventHandler(this.LevelBasedcheckbox_CheckedChanged);
             // 
@@ -616,7 +616,7 @@
             this.ShowGroupPickupcheckbox.Name = "ShowGroupPickupcheckbox";
             this.ShowGroupPickupcheckbox.Size = new System.Drawing.Size(121, 17);
             this.ShowGroupPickupcheckbox.TabIndex = 111;
-            this.ShowGroupPickupcheckbox.Text = "Show Group Pickup";
+            this.ShowGroupPickupcheckbox.Text = "显示组队拾取";
             this.ShowGroupPickupcheckbox.UseVisualStyleBackColor = true;
             this.ShowGroupPickupcheckbox.CheckedChanged += new System.EventHandler(this.ShowGroupPickupcheckbox_CheckedChanged);
             // 
@@ -627,7 +627,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Item Name:";
+            this.label3.Text = "物品名称:";
             // 
             // ItemNameTextBox
             // 
@@ -644,7 +644,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Item Type:";
+            this.label2.Text = "物品类型:";
             // 
             // EffectTextBox
             // 
@@ -671,7 +671,7 @@
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(38, 13);
             this.label34.TabIndex = 72;
-            this.label34.Text = "Effect:";
+            this.label34.Text = "效果:";
             // 
             // label4
             // 
@@ -680,7 +680,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 13);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Required Type:";
+            this.label4.Text = "需求类型:";
             // 
             // PriceTextBox
             // 
@@ -708,7 +708,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(34, 13);
             this.label12.TabIndex = 28;
-            this.label12.Text = "Price:";
+            this.label12.Text = "价格:";
             // 
             // DuraTextBox
             // 
@@ -726,7 +726,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 13);
             this.label5.TabIndex = 14;
-            this.label5.Text = "Required Class:";
+            this.label5.Text = "需求职业:";
             // 
             // label11
             // 
@@ -735,7 +735,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(53, 13);
             this.label11.TabIndex = 24;
-            this.label11.Text = "Durability:";
+            this.label11.Text = "耐久:";
             // 
             // RClassComboBox
             // 
@@ -763,7 +763,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 13);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Required Amount:";
+            this.label6.Text = "需求数量:";
             // 
             // label9
             // 
@@ -772,7 +772,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 13);
             this.label9.TabIndex = 22;
-            this.label9.Text = "Light Range:";
+            this.label9.Text = "光照范围:";
             // 
             // RAmountTextBox
             // 
@@ -799,7 +799,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(39, 13);
             this.label10.TabIndex = 26;
-            this.label10.Text = "Image:";
+            this.label10.Text = "图像:";
             // 
             // label8
             // 
@@ -808,7 +808,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 13);
             this.label8.TabIndex = 20;
-            this.label8.Text = "Weight:";
+            this.label8.Text = "重量:";
             // 
             // ImageTextBox
             // 
@@ -844,7 +844,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 13);
             this.label7.TabIndex = 18;
-            this.label7.Text = "Shape:";
+            this.label7.Text = "形状:";
             // 
             // label13
             // 
@@ -853,7 +853,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(61, 13);
             this.label13.TabIndex = 30;
-            this.label13.Text = "Stack Size:";
+            this.label13.Text = "堆叠数量:";
             // 
             // label33
             // 
@@ -862,7 +862,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(91, 13);
             this.label33.TabIndex = 71;
-            this.label33.Text = "Required Gender:";
+            this.label33.Text = "需求性别:";
             // 
             // RGenderComboBox
             // 
@@ -891,7 +891,7 @@
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(49, 13);
             this.label35.TabIndex = 75;
-            this.label35.Text = "Item Set:";
+            this.label35.Text = "物品套装:";
             // 
             // tabPage2
             // 
@@ -967,7 +967,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(601, 390);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Basic Stats";
+            this.tabPage2.Text = "基础属性";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -997,7 +997,7 @@
             this.groupBox1.Size = new System.Drawing.Size(579, 98);
             this.groupBox1.TabIndex = 123;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "New Stats";
+            this.groupBox1.Text = "新属性";
             // 
             // label50
             // 
@@ -1006,7 +1006,7 @@
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(62, 13);
             this.label50.TabIndex = 119;
-            this.label50.Text = "Critical rate:";
+            this.label50.Text = "暴击率:";
             // 
             // label52
             // 
@@ -1015,7 +1015,7 @@
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(44, 13);
             this.label52.TabIndex = 122;
-            this.label52.Text = "Reflect:";
+            this.label52.Text = "反射:";
             // 
             // label49
             // 
@@ -1024,7 +1024,7 @@
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(53, 13);
             this.label49.TabIndex = 115;
-            this.label49.Text = "HP Drain:";
+            this.label49.Text = "生命吸取:";
             // 
             // ReflecttextBox
             // 
@@ -1069,7 +1069,7 @@
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(66, 13);
             this.label51.TabIndex = 120;
-            this.label51.Text = "Critical Dmg:";
+            this.label51.Text = "暴击伤害:";
             // 
             // label37
             // 
@@ -1078,7 +1078,7 @@
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(57, 13);
             this.label37.TabIndex = 78;
-            this.label37.Text = "Mac Rate:";
+            this.label37.Text = "魔防几率:";
             // 
             // label14
             // 
@@ -1087,7 +1087,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 13);
             this.label14.TabIndex = 32;
-            this.label14.Text = "Min AC:";
+            this.label14.Text = "最小AC:";
             // 
             // MinACTextBox
             // 
@@ -1114,7 +1114,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(47, 13);
             this.label15.TabIndex = 34;
-            this.label15.Text = "Max AC:";
+            this.label15.Text = "最大AC:";
             // 
             // label48
             // 
@@ -1123,7 +1123,7 @@
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(39, 13);
             this.label48.TabIndex = 113;
-            this.label48.Text = "Mp +%";
+            this.label48.Text = "Mp+%";
             // 
             // MaxACTextBox
             // 
@@ -1141,7 +1141,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(53, 13);
             this.label17.TabIndex = 14;
-            this.label17.Text = "Min MAC:";
+            this.label17.Text = "最小MAC:";
             // 
             // MinMACTextBox
             // 
@@ -1159,7 +1159,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(56, 13);
             this.label16.TabIndex = 38;
-            this.label16.Text = "Max MAC:";
+            this.label16.Text = "最大MAC:";
             // 
             // MaxMACTextBox
             // 
@@ -1177,7 +1177,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(45, 13);
             this.label21.TabIndex = 40;
-            this.label21.Text = "Min DC:";
+            this.label21.Text = "最小DC:";
             // 
             // MinDCTextBox
             // 
@@ -1195,7 +1195,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(48, 13);
             this.label20.TabIndex = 42;
-            this.label20.Text = "Max DC:";
+            this.label20.Text = "最大DC:";
             // 
             // MaxDCTextBox
             // 
@@ -1213,7 +1213,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 13);
             this.label19.TabIndex = 44;
-            this.label19.Text = "Min MC:";
+            this.label19.Text = "最小MC:";
             // 
             // PoisonAttacktextbox
             // 
@@ -1240,7 +1240,7 @@
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(76, 13);
             this.label47.TabIndex = 98;
-            this.label47.Text = "Poison Attack:";
+            this.label47.Text = "中毒攻击:";
             // 
             // label18
             // 
@@ -1249,7 +1249,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(49, 13);
             this.label18.TabIndex = 46;
-            this.label18.Text = "Max MC:";
+            this.label18.Text = "最大MC:";
             // 
             // Freezingtextbox
             // 
@@ -1276,7 +1276,7 @@
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(50, 13);
             this.label46.TabIndex = 96;
-            this.label46.Text = "Freezing:";
+            this.label46.Text = "冰冻:";
             // 
             // label23
             // 
@@ -1285,7 +1285,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(44, 13);
             this.label23.TabIndex = 48;
-            this.label23.Text = "Min SC:";
+            this.label23.Text = "最小SC:";
             // 
             // Holytextbox
             // 
@@ -1312,7 +1312,7 @@
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(31, 13);
             this.label45.TabIndex = 94;
-            this.label45.Text = "Holy:";
+            this.label45.Text = "神圣:";
             // 
             // label22
             // 
@@ -1321,7 +1321,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(47, 13);
             this.label22.TabIndex = 50;
-            this.label22.Text = "Max SC:";
+            this.label22.Text = "最大SC:";
             // 
             // HPratetextbox
             // 
@@ -1384,7 +1384,7 @@
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(65, 13);
             this.label43.TabIndex = 90;
-            this.label43.Text = "Pois Recov:";
+            this.label43.Text = "毒恢复:";
             // 
             // label24
             // 
@@ -1420,7 +1420,7 @@
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(61, 13);
             this.label42.TabIndex = 88;
-            this.label42.Text = "MP Regen:";
+            this.label42.Text = "魔法恢复:";
             // 
             // label27
             // 
@@ -1429,7 +1429,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(55, 13);
             this.label27.TabIndex = 56;
-            this.label27.Text = "Accuracy:";
+            this.label27.Text = "准确:";
             // 
             // PoisonResisttextBox
             // 
@@ -1456,7 +1456,7 @@
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(52, 13);
             this.label41.TabIndex = 86;
-            this.label41.Text = "Pois Res:";
+            this.label41.Text = "抗毒:";
             // 
             // label26
             // 
@@ -1465,7 +1465,7 @@
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(37, 13);
             this.label26.TabIndex = 58;
-            this.label26.Text = "Agility:";
+            this.label26.Text = "敏捷:";
             // 
             // MagicResisttextBox
             // 
@@ -1492,7 +1492,7 @@
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(63, 13);
             this.label40.TabIndex = 84;
-            this.label40.Text = "Mag Resist:";
+            this.label40.Text = "魔防:";
             // 
             // label29
             // 
@@ -1501,7 +1501,7 @@
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(54, 13);
             this.label29.TabIndex = 60;
-            this.label29.Text = "A. Speed:";
+            this.label29.Text = "攻击速度:";
             // 
             // HealthRecoveryTextbox
             // 
@@ -1528,7 +1528,7 @@
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(60, 13);
             this.label39.TabIndex = 82;
-            this.label39.Text = "HP Regen:";
+            this.label39.Text = "生命恢复:";
             // 
             // label28
             // 
@@ -1537,7 +1537,7 @@
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(34, 13);
             this.label28.TabIndex = 62;
-            this.label28.Text = "Luck:";
+            this.label28.Text = "幸运:";
             // 
             // StrongTextbox
             // 
@@ -1564,7 +1564,7 @@
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(41, 13);
             this.label38.TabIndex = 80;
-            this.label38.Text = "Strong:";
+            this.label38.Text = "强壮:";
             // 
             // label31
             // 
@@ -1573,7 +1573,7 @@
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(66, 13);
             this.label31.TabIndex = 66;
-            this.label31.Text = "Bag Weight:";
+            this.label31.Text = "背包重量:";
             // 
             // MacRateTextbox
             // 
@@ -1600,7 +1600,7 @@
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(73, 13);
             this.label30.TabIndex = 67;
-            this.label30.Text = "Hand Weight.";
+            this.label30.Text = "手持重量.";
             // 
             // ACRateTextbox
             // 
@@ -1627,7 +1627,7 @@
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(49, 13);
             this.label36.TabIndex = 76;
-            this.label36.Text = "Ac Rate:";
+            this.label36.Text = "防御几率:";
             // 
             // label32
             // 
@@ -1636,7 +1636,7 @@
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(73, 13);
             this.label32.TabIndex = 69;
-            this.label32.Text = "Wear Weight.";
+            this.label32.Text = "穿戴重量.";
             // 
             // WWeightTextBox
             // 
@@ -1668,7 +1668,7 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(601, 390);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Binding";
+            this.tabPage3.Text = "绑定";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // noMailBox
@@ -1678,7 +1678,7 @@
             this.noMailBox.Name = "noMailBox";
             this.noMailBox.Size = new System.Drawing.Size(98, 17);
             this.noMailBox.TabIndex = 119;
-            this.noMailBox.Text = "Unable To Mail";
+            this.noMailBox.Text = "不可邮寄";
             this.noMailBox.UseVisualStyleBackColor = true;
             this.noMailBox.CheckedChanged += new System.EventHandler(this.noMailBox_CheckedChanged);
             // 
@@ -1689,7 +1689,7 @@
             this.unableToDisassemble_CheckBox.Name = "unableToDisassemble_CheckBox";
             this.unableToDisassemble_CheckBox.Size = new System.Drawing.Size(138, 17);
             this.unableToDisassemble_CheckBox.TabIndex = 117;
-            this.unableToDisassemble_CheckBox.Text = "Unable To Disassemble";
+            this.unableToDisassemble_CheckBox.Text = "不可分解";
             this.unableToDisassemble_CheckBox.UseVisualStyleBackColor = true;
             this.unableToDisassemble_CheckBox.CheckedChanged += new System.EventHandler(this.unableToDisassemble_CheckBox_CheckedChanged);
             // 
@@ -1700,7 +1700,7 @@
             this.unableToRent_CheckBox.Name = "unableToRent_CheckBox";
             this.unableToRent_CheckBox.Size = new System.Drawing.Size(102, 17);
             this.unableToRent_CheckBox.TabIndex = 116;
-            this.unableToRent_CheckBox.Text = "Unable To Rent";
+            this.unableToRent_CheckBox.Text = "不可租借";
             this.unableToRent_CheckBox.UseVisualStyleBackColor = true;
             this.unableToRent_CheckBox.CheckedChanged += new System.EventHandler(this.unableToRent_CheckBox_CheckedChanged);
             // 
@@ -1711,7 +1711,7 @@
             this.NoWeddingRingcheckbox.Name = "NoWeddingRingcheckbox";
             this.NoWeddingRingcheckbox.Size = new System.Drawing.Size(130, 17);
             this.NoWeddingRingcheckbox.TabIndex = 115;
-            this.NoWeddingRingcheckbox.Text = "Disabled Weddingring";
+            this.NoWeddingRingcheckbox.Text = "禁用婚戒";
             this.NoWeddingRingcheckbox.UseVisualStyleBackColor = true;
             this.NoWeddingRingcheckbox.CheckedChanged += new System.EventHandler(this.NoWeddingRingcheckbox_CheckedChanged);
             // 
@@ -1722,7 +1722,7 @@
             this.BreakOnDeathcheckbox.Name = "BreakOnDeathcheckbox";
             this.BreakOnDeathcheckbox.Size = new System.Drawing.Size(101, 17);
             this.BreakOnDeathcheckbox.TabIndex = 114;
-            this.BreakOnDeathcheckbox.Text = "Break on Death";
+            this.BreakOnDeathcheckbox.Text = "死亡破损";
             this.BreakOnDeathcheckbox.UseVisualStyleBackColor = true;
             this.BreakOnDeathcheckbox.CheckedChanged += new System.EventHandler(this.BreakOnDeathcheckbox_CheckedChanged);
             // 
@@ -1733,7 +1733,7 @@
             this.Bind_DontSpecialRepaircheckBox.Name = "Bind_DontSpecialRepaircheckBox";
             this.Bind_DontSpecialRepaircheckBox.Size = new System.Drawing.Size(121, 17);
             this.Bind_DontSpecialRepaircheckBox.TabIndex = 113;
-            this.Bind_DontSpecialRepaircheckBox.Text = "Dont Special Repair";
+            this.Bind_DontSpecialRepaircheckBox.Text = "不可特殊修理";
             this.Bind_DontSpecialRepaircheckBox.UseVisualStyleBackColor = true;
             this.Bind_DontSpecialRepaircheckBox.CheckedChanged += new System.EventHandler(this.Bind_DontSpecialRepaircheckBox_CheckedChanged);
             // 
@@ -1744,7 +1744,7 @@
             this.Bind_dontdropcheckbox.Name = "Bind_dontdropcheckbox";
             this.Bind_dontdropcheckbox.Size = new System.Drawing.Size(73, 17);
             this.Bind_dontdropcheckbox.TabIndex = 102;
-            this.Bind_dontdropcheckbox.Text = "Dont drop";
+            this.Bind_dontdropcheckbox.Text = "不可丢弃";
             this.Bind_dontdropcheckbox.UseVisualStyleBackColor = true;
             this.Bind_dontdropcheckbox.CheckedChanged += new System.EventHandler(this.Bind_dontdropcheckbox_CheckedChanged);
             // 
@@ -1755,7 +1755,7 @@
             this.BindOnEquipcheckbox.Name = "BindOnEquipcheckbox";
             this.BindOnEquipcheckbox.Size = new System.Drawing.Size(92, 17);
             this.BindOnEquipcheckbox.TabIndex = 112;
-            this.BindOnEquipcheckbox.Text = "Bind on Equip";
+            this.BindOnEquipcheckbox.Text = "装备后绑定";
             this.BindOnEquipcheckbox.UseVisualStyleBackColor = true;
             this.BindOnEquipcheckbox.CheckedChanged += new System.EventHandler(this.BindOnEquipcheckbox_CheckedChanged);
             // 
@@ -1766,7 +1766,7 @@
             this.Bind_dontdeathdropcheckbox.Name = "Bind_dontdeathdropcheckbox";
             this.Bind_dontdeathdropcheckbox.Size = new System.Drawing.Size(105, 17);
             this.Bind_dontdeathdropcheckbox.TabIndex = 103;
-            this.Bind_dontdeathdropcheckbox.Text = "Dont Death drop";
+            this.Bind_dontdeathdropcheckbox.Text = "死亡不掉落";
             this.Bind_dontdeathdropcheckbox.UseVisualStyleBackColor = true;
             this.Bind_dontdeathdropcheckbox.CheckedChanged += new System.EventHandler(this.Bind_dontdeathdropcheckbox_CheckedChanged);
             // 
@@ -1777,7 +1777,7 @@
             this.Bind_dontstorecheckbox.Name = "Bind_dontstorecheckbox";
             this.Bind_dontstorecheckbox.Size = new System.Drawing.Size(77, 17);
             this.Bind_dontstorecheckbox.TabIndex = 109;
-            this.Bind_dontstorecheckbox.Text = "Dont Store";
+            this.Bind_dontstorecheckbox.Text = "不可存放";
             this.Bind_dontstorecheckbox.UseVisualStyleBackColor = true;
             this.Bind_dontstorecheckbox.CheckedChanged += new System.EventHandler(this.Bind_dontstorecheckbox_CheckedChanged);
             // 
@@ -1788,7 +1788,7 @@
             this.Bind_destroyondropcheckbox.Name = "Bind_destroyondropcheckbox";
             this.Bind_destroyondropcheckbox.Size = new System.Drawing.Size(101, 17);
             this.Bind_destroyondropcheckbox.TabIndex = 104;
-            this.Bind_destroyondropcheckbox.Text = "Destroy on drop";
+            this.Bind_destroyondropcheckbox.Text = "丢弃销毁";
             this.Bind_destroyondropcheckbox.UseVisualStyleBackColor = true;
             this.Bind_destroyondropcheckbox.CheckedChanged += new System.EventHandler(this.Bind_destroyondropcheckbox_CheckedChanged);
             // 
@@ -1799,7 +1799,7 @@
             this.Bind_dontupgradecheckbox.Name = "Bind_dontupgradecheckbox";
             this.Bind_dontupgradecheckbox.Size = new System.Drawing.Size(93, 17);
             this.Bind_dontupgradecheckbox.TabIndex = 108;
-            this.Bind_dontupgradecheckbox.Text = "Dont Upgrade";
+            this.Bind_dontupgradecheckbox.Text = "不可升级";
             this.Bind_dontupgradecheckbox.UseVisualStyleBackColor = true;
             this.Bind_dontupgradecheckbox.CheckedChanged += new System.EventHandler(this.Bind_dontupgradecheckbox_CheckedChanged);
             // 
@@ -1810,7 +1810,7 @@
             this.Bind_dontsellcheckbox.Name = "Bind_dontsellcheckbox";
             this.Bind_dontsellcheckbox.Size = new System.Drawing.Size(67, 17);
             this.Bind_dontsellcheckbox.TabIndex = 105;
-            this.Bind_dontsellcheckbox.Text = "Dont sell";
+            this.Bind_dontsellcheckbox.Text = "不可出售";
             this.Bind_dontsellcheckbox.UseVisualStyleBackColor = true;
             this.Bind_dontsellcheckbox.CheckedChanged += new System.EventHandler(this.Bind_dontsellcheckbox_CheckedChanged);
             // 
@@ -1821,7 +1821,7 @@
             this.Bind_dontrepaircheckbox.Name = "Bind_dontrepaircheckbox";
             this.Bind_dontrepaircheckbox.Size = new System.Drawing.Size(83, 17);
             this.Bind_dontrepaircheckbox.TabIndex = 107;
-            this.Bind_dontrepaircheckbox.Text = "Dont Repair";
+            this.Bind_dontrepaircheckbox.Text = "不可修理";
             this.Bind_dontrepaircheckbox.UseVisualStyleBackColor = true;
             this.Bind_dontrepaircheckbox.CheckedChanged += new System.EventHandler(this.Bind_dontrepaircheckbox_CheckedChanged);
             // 
@@ -1832,7 +1832,7 @@
             this.Bind_donttradecheckbox.Name = "Bind_donttradecheckbox";
             this.Bind_donttradecheckbox.Size = new System.Drawing.Size(80, 17);
             this.Bind_donttradecheckbox.TabIndex = 106;
-            this.Bind_donttradecheckbox.Text = "Dont Trade";
+            this.Bind_donttradecheckbox.Text = "不可交易";
             this.Bind_donttradecheckbox.UseVisualStyleBackColor = true;
             this.Bind_donttradecheckbox.CheckedChanged += new System.EventHandler(this.Bind_donttradecheckbox_CheckedChanged);
             // 
@@ -1855,7 +1855,7 @@
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(601, 390);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Special Stats";
+            this.tabPage4.Text = "特殊属性";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // PickaxecheckBox
@@ -1865,7 +1865,7 @@
             this.PickaxecheckBox.Name = "PickaxecheckBox";
             this.PickaxecheckBox.Size = new System.Drawing.Size(64, 17);
             this.PickaxecheckBox.TabIndex = 11;
-            this.PickaxecheckBox.Text = "Pickaxe";
+            this.PickaxecheckBox.Text = "矿镐";
             this.PickaxecheckBox.UseVisualStyleBackColor = true;
             this.PickaxecheckBox.CheckedChanged += new System.EventHandler(this.PickaxecheckBox_CheckedChanged);
             // 
@@ -1876,7 +1876,7 @@
             this.NoDuraLosscheckBox.Name = "NoDuraLosscheckBox";
             this.NoDuraLosscheckBox.Size = new System.Drawing.Size(85, 17);
             this.NoDuraLosscheckBox.TabIndex = 10;
-            this.NoDuraLosscheckBox.Text = "No dura loss";
+            this.NoDuraLosscheckBox.Text = "无耐久损耗";
             this.NoDuraLosscheckBox.UseVisualStyleBackColor = true;
             this.NoDuraLosscheckBox.CheckedChanged += new System.EventHandler(this.NoDuraLosscheckBox_CheckedChanged);
             // 
@@ -1887,7 +1887,7 @@
             this.SkillcheckBox.Name = "SkillcheckBox";
             this.SkillcheckBox.Size = new System.Drawing.Size(92, 17);
             this.SkillcheckBox.TabIndex = 9;
-            this.SkillcheckBox.Text = "Skill necklace";
+            this.SkillcheckBox.Text = "技能项链";
             this.SkillcheckBox.UseVisualStyleBackColor = true;
             this.SkillcheckBox.CheckedChanged += new System.EventHandler(this.SkillcheckBox_CheckedChanged);
             // 
@@ -1898,7 +1898,7 @@
             this.ProbecheckBox.Name = "ProbecheckBox";
             this.ProbecheckBox.Size = new System.Drawing.Size(101, 17);
             this.ProbecheckBox.TabIndex = 8;
-            this.ProbecheckBox.Text = "Probe necklace";
+            this.ProbecheckBox.Text = "探测项链";
             this.ProbecheckBox.UseVisualStyleBackColor = true;
             this.ProbecheckBox.CheckedChanged += new System.EventHandler(this.ProbecheckBox_CheckedChanged);
             // 
@@ -1909,7 +1909,7 @@
             this.HealingcheckBox.Name = "HealingcheckBox";
             this.HealingcheckBox.Size = new System.Drawing.Size(82, 17);
             this.HealingcheckBox.TabIndex = 7;
-            this.HealingcheckBox.Text = "Healing ring";
+            this.HealingcheckBox.Text = "治疗戒指";
             this.HealingcheckBox.UseVisualStyleBackColor = true;
             this.HealingcheckBox.CheckedChanged += new System.EventHandler(this.HealingcheckBox_CheckedChanged);
             // 
@@ -1920,7 +1920,7 @@
             this.FlamecheckBox.Name = "FlamecheckBox";
             this.FlamecheckBox.Size = new System.Drawing.Size(74, 17);
             this.FlamecheckBox.TabIndex = 6;
-            this.FlamecheckBox.Text = "Flame ring";
+            this.FlamecheckBox.Text = "火焰戒指";
             this.FlamecheckBox.UseVisualStyleBackColor = true;
             this.FlamecheckBox.CheckedChanged += new System.EventHandler(this.FlamecheckBox_CheckedChanged);
             // 
@@ -1931,7 +1931,7 @@
             this.MusclecheckBox.Name = "MusclecheckBox";
             this.MusclecheckBox.Size = new System.Drawing.Size(80, 17);
             this.MusclecheckBox.TabIndex = 5;
-            this.MusclecheckBox.Text = "Muscle ring";
+            this.MusclecheckBox.Text = "力量戒指";
             this.MusclecheckBox.UseVisualStyleBackColor = true;
             this.MusclecheckBox.CheckedChanged += new System.EventHandler(this.MusclecheckBox_CheckedChanged);
             // 
@@ -1942,7 +1942,7 @@
             this.RevivalcheckBox.Name = "RevivalcheckBox";
             this.RevivalcheckBox.Size = new System.Drawing.Size(82, 17);
             this.RevivalcheckBox.TabIndex = 4;
-            this.RevivalcheckBox.Text = "Revival ring";
+            this.RevivalcheckBox.Text = "复活戒指";
             this.RevivalcheckBox.UseVisualStyleBackColor = true;
             this.RevivalcheckBox.CheckedChanged += new System.EventHandler(this.RevivalcheckBox_CheckedChanged);
             // 
@@ -1953,7 +1953,7 @@
             this.ProtectioncheckBox.Name = "ProtectioncheckBox";
             this.ProtectioncheckBox.Size = new System.Drawing.Size(94, 17);
             this.ProtectioncheckBox.TabIndex = 3;
-            this.ProtectioncheckBox.Text = "Protection ring";
+            this.ProtectioncheckBox.Text = "保护戒指";
             this.ProtectioncheckBox.UseVisualStyleBackColor = true;
             this.ProtectioncheckBox.CheckedChanged += new System.EventHandler(this.ProtectioncheckBox_CheckedChanged);
             // 
@@ -1964,7 +1964,7 @@
             this.ClearcheckBox.Name = "ClearcheckBox";
             this.ClearcheckBox.Size = new System.Drawing.Size(70, 17);
             this.ClearcheckBox.TabIndex = 2;
-            this.ClearcheckBox.Text = "Clear ring";
+            this.ClearcheckBox.Text = "净化戒指";
             this.ClearcheckBox.UseVisualStyleBackColor = true;
             this.ClearcheckBox.CheckedChanged += new System.EventHandler(this.ClearcheckBox_CheckedChanged);
             // 
@@ -1975,7 +1975,7 @@
             this.TeleportcheckBox.Name = "TeleportcheckBox";
             this.TeleportcheckBox.Size = new System.Drawing.Size(85, 17);
             this.TeleportcheckBox.TabIndex = 1;
-            this.TeleportcheckBox.Text = "Teleport ring";
+            this.TeleportcheckBox.Text = "传送戒指";
             this.TeleportcheckBox.UseVisualStyleBackColor = true;
             this.TeleportcheckBox.CheckedChanged += new System.EventHandler(this.TeleportcheckBox_CheckedChanged);
             // 
@@ -1986,7 +1986,7 @@
             this.ParalysischeckBox.Name = "ParalysischeckBox";
             this.ParalysischeckBox.Size = new System.Drawing.Size(87, 17);
             this.ParalysischeckBox.TabIndex = 0;
-            this.ParalysischeckBox.Text = "Paralysis ring";
+            this.ParalysischeckBox.Text = "麻痹戒指";
             this.ParalysischeckBox.UseVisualStyleBackColor = true;
             this.ParalysischeckBox.CheckedChanged += new System.EventHandler(this.ParalysischeckBox_CheckedChanged);
             // 
@@ -1997,7 +1997,7 @@
             this.BlinkcheckBox.Name = "BlinkcheckBox";
             this.BlinkcheckBox.Size = new System.Drawing.Size(49, 17);
             this.BlinkcheckBox.TabIndex = 6;
-            this.BlinkcheckBox.Text = "Blink";
+            this.BlinkcheckBox.Text = "闪烁";
             this.BlinkcheckBox.UseVisualStyleBackColor = true;
             this.BlinkcheckBox.CheckedChanged += new System.EventHandler(this.BlinkcheckBox_CheckedChanged);
             // 
@@ -2007,7 +2007,7 @@
             this.RemoveButton.Name = "RemoveButton";
             this.RemoveButton.Size = new System.Drawing.Size(65, 23);
             this.RemoveButton.TabIndex = 9;
-            this.RemoveButton.Text = "Remove";
+            this.RemoveButton.Text = "移除";
             this.RemoveButton.UseVisualStyleBackColor = true;
             this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
@@ -2017,7 +2017,7 @@
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(55, 23);
             this.AddButton.TabIndex = 8;
-            this.AddButton.Text = "Add";
+            this.AddButton.Text = "添加";
             this.AddButton.UseVisualStyleBackColor = true;
             this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
@@ -2040,7 +2040,7 @@
             this.PasteButton.Name = "PasteButton";
             this.PasteButton.Size = new System.Drawing.Size(53, 23);
             this.PasteButton.TabIndex = 24;
-            this.PasteButton.Text = "Paste";
+            this.PasteButton.Text = "粘贴";
             this.PasteButton.UseVisualStyleBackColor = true;
             this.PasteButton.Visible = false;
             this.PasteButton.Click += new System.EventHandler(this.PasteButton_Click);
@@ -2052,7 +2052,7 @@
             this.CopyMButton.Name = "CopyMButton";
             this.CopyMButton.Size = new System.Drawing.Size(51, 23);
             this.CopyMButton.TabIndex = 23;
-            this.CopyMButton.Text = "Copy";
+            this.CopyMButton.Text = "复制";
             this.CopyMButton.UseVisualStyleBackColor = true;
             this.CopyMButton.Visible = false;
             this.CopyMButton.Click += new System.EventHandler(this.CopyMButton_Click);
@@ -2090,8 +2090,8 @@
             this.Controls.Add(this.RemoveButton);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.ItemInfoListBox);
-            this.Name = "ItemInfoForm";
-            this.Text = "ItemInfoForm";
+            this.Name = "物品信息";
+            this.Text = "物品信息";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ItemInfoForm_FormClosed);
             this.Load += new System.EventHandler(this.ItemInfoForm_Load);
             this.ItemInfoPanel.ResumeLayout(false);
