@@ -1,0 +1,101 @@
+project	file	line	member	english	chinese
+Server.MirForms	Server.MirForms/Database/GameShop.designer.cs	283	TopItem_checkbox.Text	:Top Item	:置顶商品
+Server.MirForms	Server.MirForms/Database/GameShop.designer.cs	296	DealofDay_checkbox.Text	:Sale Item	:特卖商品
+Server.MirForms	Server.MirForms/Database/ItemInfoForm.Designer.cs	2076	Gameshop_button.Text	+ Gameshop	+ 商城
+Server.MirForms	Server.MirForms/Database/ItemInfoFormNew.Designer.cs	353	Gameshop_button.Text	+ Gameshop	+ 商城
+Server.MirForms	Server.MirForms/VisualMapInfo/Control/MineEntry.Designer.cs	54	Details.Text	Details	详情
+LibraryEditor	LibraryEditor/LMain.Designer.cs	158	fileToolStripMenuItem.Text	File	文件
+LibraryEditor	LibraryEditor/LMain.Designer.cs	165	newToolStripMenuItem.Text	New	新建
+LibraryEditor	LibraryEditor/LMain.Designer.cs	174	openToolStripMenuItem.Text	Open	打开
+LibraryEditor	LibraryEditor/LMain.Designer.cs	175	openToolStripMenuItem.ToolTipText	Open Shanda or Wemade files.	打开盛大或娱美德图档文件。
+LibraryEditor	LibraryEditor/LMain.Designer.cs	187	openReferenceFileToolStripMenuItem.Text	Open Reference File	打开参考文件
+LibraryEditor	LibraryEditor/LMain.Designer.cs	194	openReferenceImageToolStripMenuItem.Text	Open Reference Image	打开参考图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	207	saveToolStripMenuItem.Text	Save	保存
+LibraryEditor	LibraryEditor/LMain.Designer.cs	216	saveAsToolStripMenuItem.Text	Save As	另存为
+LibraryEditor	LibraryEditor/LMain.Designer.cs	217	saveAsToolStripMenuItem.ToolTipText	.Lib Only.	仅 .Lib。
+LibraryEditor	LibraryEditor/LMain.Designer.cs	230	closeToolStripMenuItem.Text	Close	关闭
+LibraryEditor	LibraryEditor/LMain.Designer.cs	231	closeToolStripMenuItem.ToolTipText	Exit Application.	退出程序。
+LibraryEditor	LibraryEditor/LMain.Designer.cs	240	functionsToolStripMenuItem.Text	Functions	功能
+LibraryEditor	LibraryEditor/LMain.Designer.cs	247	copyToToolStripMenuItem.Text	Copy To..	复制到..
+LibraryEditor	LibraryEditor/LMain.Designer.cs	248	copyToToolStripMenuItem.ToolTipText	Copy to a new .Lib or to the end of an exsisting one.	复制到新 .Lib 或追加到现有 .Lib 末尾。
+LibraryEditor	LibraryEditor/LMain.Designer.cs	256	countBlanksToolStripMenuItem.Text	Count Blanks	统计空白帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	266	removeBlanksToolStripMenuItem.Text	Remove Blanks	移除空白帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	267	removeBlanksToolStripMenuItem.ToolTipText	Quick removal of blanks.	快速移除空白帧。
+LibraryEditor	LibraryEditor/LMain.Designer.cs	275	safeToolStripMenuItem.Text	Safe	安全模式
+LibraryEditor	LibraryEditor/LMain.Designer.cs	276	safeToolStripMenuItem.ToolTipText	Use the safe method of removing blanks.	使用安全方式移除空白帧。
+LibraryEditor	LibraryEditor/LMain.Designer.cs	284	convertToolStripMenuItem.Text	Converter	转换器
+LibraryEditor	LibraryEditor/LMain.Designer.cs	294	populateFramesToolStripMenuItem.Text	Populate Frames	填充帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	301	defaultMonsterFramesToolStripMenuItem.Text	Default Monster Frames	默认怪物帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	309	defaultNPCFramesToolStripMenuItem.Text	Default NPC Frames	默认 NPC 帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	317	defaultPlayerFramesToolStripMenuItem.Text	Default Player Frames	默认玩家帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	325	autofillFromCodeToolStripMenuItem.Text	AutoFill From Code	从代码自动填充
+LibraryEditor	LibraryEditor/LMain.Designer.cs	332	importShadowsToolStripMenuItem.Text	Import Shadows	导入阴影
+LibraryEditor	LibraryEditor/LMain.Designer.cs	341	skinToolStripMenuItem.Text	Skin	皮肤
+LibraryEditor	LibraryEditor/LMain.Designer.cs	439	BulkButton.Text	Bulk Offset	批量偏移
+LibraryEditor	LibraryEditor/LMain.Designer.cs	450	checkBox1.Text	Apply Offsets	应用偏移
+LibraryEditor	LibraryEditor/LMain.Designer.cs	465	groupBox1.Text	View Mode	查看模式
+LibraryEditor	LibraryEditor/LMain.Designer.cs	475	RButtonOverlay.Text	Overlay	叠加
+LibraryEditor	LibraryEditor/LMain.Designer.cs	489	RButtonImage.Text	Image	图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	503	checkboxRemoveBlackOnImport.Text	Remove Black On Import	导入时移除黑色
+LibraryEditor	LibraryEditor/LMain.Designer.cs	525	checkBoxPreventAntiAliasing.Text	No Anti-aliasing	禁用抗锯齿
+LibraryEditor	LibraryEditor/LMain.Designer.cs	537	checkBoxQuality.Text	No Blurring	禁用模糊
+LibraryEditor	LibraryEditor/LMain.Designer.cs	580	buttonReplace.Text	Replace Image	替换图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	622	ExportButton.Text	Export Images	导出图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	638	InsertImageButton.Text	Insert Images	插入图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	654	DeleteButton.Text	Delete Images	删除图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	670	AddButton.Text	Add Images	添加图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	684	label10.Text	OffSet Y:	偏移 Y:
+LibraryEditor	LibraryEditor/LMain.Designer.cs	695	label8.Text	OffSet X:	偏移 X:
+LibraryEditor	LibraryEditor/LMain.Designer.cs	706	HeightLabel.Text	<No Image>	<无图像>
+LibraryEditor	LibraryEditor/LMain.Designer.cs	717	label6.Text	Height:	高度:
+LibraryEditor	LibraryEditor/LMain.Designer.cs	728	WidthLabel.Text	<No Image>	<无图像>
+LibraryEditor	LibraryEditor/LMain.Designer.cs	739	label1.Text	Width:	宽度:
+LibraryEditor	LibraryEditor/LMain.Designer.cs	787	tabImages.Text	Images	图像
+LibraryEditor	LibraryEditor/LMain.Designer.cs	822	tabFrames.Text	Frames	帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	842	FrameAction.HeaderText	Action	动作
+LibraryEditor	LibraryEditor/LMain.Designer.cs	849	FrameStart.HeaderText	Start	起始
+LibraryEditor	LibraryEditor/LMain.Designer.cs	854	FrameCount.HeaderText	Count	帧数
+LibraryEditor	LibraryEditor/LMain.Designer.cs	859	FrameSkip.HeaderText	Skip	跳帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	864	FrameInterval.HeaderText	Interval	间隔
+LibraryEditor	LibraryEditor/LMain.Designer.cs	869	FrameEffectStart.HeaderText	EffectStart	特效起始
+LibraryEditor	LibraryEditor/LMain.Designer.cs	874	FrameEffectCount.HeaderText	EffectCount	特效帧数
+LibraryEditor	LibraryEditor/LMain.Designer.cs	879	FrameEffectSkip.HeaderText	EffectSkip	特效跳帧
+LibraryEditor	LibraryEditor/LMain.Designer.cs	884	FrameEffectInterval.HeaderText	EffectInterval	特效间隔
+LibraryEditor	LibraryEditor/LMain.Designer.cs	889	FrameReverse.HeaderText	Reverse	倒放
+LibraryEditor	LibraryEditor/LMain.Designer.cs	894	FrameBlend.HeaderText	Blend	混合
+LibraryEditor	LibraryEditor/LMain.Designer.cs	930	toolStripStatusLabel.Text	Selected Image:	选中图像:
+LibraryViewer	LibraryViewer/LMain.Designer.cs	81	fileToolStripMenuItem.Text	Folder	文件夹
+LibraryViewer	LibraryViewer/LMain.Designer.cs	87	openMenuItem.Text	Open	打开
+LibraryViewer	LibraryViewer/LMain.Designer.cs	169	checkCenter.Text	Center	居中
+LibraryViewer	LibraryViewer/LMain.Designer.cs	182	checkBackground.Text	Background	背景
+LibraryViewer	LibraryViewer/LMain.Designer.cs	193	HeightLabel.Text	<No Image>	<无图像>
+LibraryViewer	LibraryViewer/LMain.Designer.cs	202	LblHeight.Text	Height:	高度:
+LibraryViewer	LibraryViewer/LMain.Designer.cs	211	LibNameLabel.Text	<No Selection>	<无选择>
+LibraryViewer	LibraryViewer/LMain.Designer.cs	229	WidthLabel.Text	<No Image>	<无图像>
+LibraryViewer	LibraryViewer/LMain.Designer.cs	238	LblLibName.Text	Libfile:	图档文件:
+LibraryViewer	LibraryViewer/LMain.Designer.cs	247	LblLibCount.Text	Libcount:	图档数量:
+LibraryViewer	LibraryViewer/LMain.Designer.cs	256	LblWidth.Text	Width:	宽度:
+LibraryViewer	LibraryViewer/LMain.Designer.cs	290	ExportImagesButton.Text	Export Images	导出图像
+LibraryViewer	LibraryViewer/LMain.Designer.cs	303	this.Text	C# Library Viewer	C# 图档查看器
+LibraryViewer	LibraryViewer/LoadSettings.Designer.cs	44	button1.Text	Start	开始
+LibraryViewer	LibraryViewer/LoadSettings.Designer.cs	68	label1.Text	Prefix:	前缀:
+LibraryViewer	LibraryViewer/LoadSettings.Designer.cs	77	cbFront.Text	FrontImages	前景图
+LibraryViewer	LibraryViewer/LoadSettings.Designer.cs	87	cbManualPrefix.Text	ManualPrefix	手动前缀
+LibraryViewer	LibraryViewer/LoadSettings.Designer.cs	102	this.Text	LoadSettings	加载设置
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	70	label1.Text	Client Directory:	客户端目录:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	79	label2.Text	Host Address:	主机地址:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	95	label3.Text	Login:	登录账号:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	111	label4.Text	Password:	密码:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	126	ProcessButton.Text	Process	处理
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	144	ActionLabel.Text	Idle	空闲
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	153	label5.Text	Action:	操作:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	169	SpeedLabel.Text	Idle	空闲
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	178	label7.Text	Speed:	速度:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	187	FileLabel.Text	Idle	空闲
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	196	label8.Text	File:	文件:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	204	ListButton.Text	Create List	创建列表
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	215	AllowCleanCheckBox.Text	Allow Clean Up	允许清理
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	224	DownloadExistingButton.Text	Download Existing Data	下载现有数据
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	234	btnFixGZ.Text	Fix *.gz	修复 *.gz
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	257	label6.Text	Protocol:	协议:
+AutoPatcherAdmin	AutoPatcherAdmin/AMain.Designer.cs	288	this.Text	Auto Patcher Admin	自动补丁管理
